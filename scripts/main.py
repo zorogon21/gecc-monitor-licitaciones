@@ -3,33 +3,35 @@
 main.py — Orquestador del monitor de licitaciones GECC.
 
 Qué hace cada corrida:
-1. Descarga procedimientos de contratación recientes desde la API oficial
-   de Contrataciones Abiertas del Gobierno de México (api.datos.gob.mx).
-2. Clasifica cada uno contra las categorías de negocio de GECC leyendo el
-   texto completo (no solo una palabra exacta).
+1. Descarga licitaciones recientes de tres fuentes: la API oficial de
+   Contrataciones Abiertas del Gobierno de México (api.datos.gob.mx), el
+   portal de Obra Pública del Estado de Guanajuato y el portal de
+   Convocatorias y Licitaciones del Municipio de León (ver scripts/fuentes/).
+2. Clasifica cada una contra las categorías de negocio de GECC leyendo el
+   texto completo (no solo una palabra exacta), usando keywords.clasificar
+   para las tres fuentes por igual.
 3. Compara contra lo ya detectado en corridas anteriores (data/licitaciones.json)
-   para no duplicar.
+   para no duplicar, sin importar de qué fuente venga.
 4. Guarda el resultado actualizado.
 5. Llama a build_site.py para regenerar la página HTML.
 
 Diseñado para correr cada 2 horas vía GitHub Actions (ver
-.github/workflows/monitor.yml). Si la API cambia de forma o un campo no
+.github/workflows/monitor.yml). Si una fuente cambia de forma o un campo no
 existe, el script no debe tronar — debe registrar el problema en
-data/run_log.json y seguir con lo que sí pudo procesar.
+data/run_log.json y seguir con las demás fuentes que sí pudo procesar.
 """
 
 import json
 import os
-import re
 import sys
 import time
-import unicodedata
 from datetime import datetime, timezone
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
 sys.path.insert(0, os.path.dirname(__file__))
-from keywords import CATEGORIES, NEGATIVE_KEYWORDS  # noqa: E402
+from keywords import clasificar  # noqa: E402
+from fuentes import guanajuato_estatal, leon  # noqa: E402
 
 API_BASE = "https://api.datos.gob.mx/v2/contratacionesabiertas"
 PAGE_SIZE = 200
@@ -38,30 +40,6 @@ REQUEST_TIMEOUT = 30
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 LICITACIONES_PATH = os.path.join(DATA_DIR, "licitaciones.json")
 LOG_PATH = os.path.join(DATA_DIR, "run_log.json")
-
-
-def normalizar(texto):
-    """Quita acentos y pasa a minúsculas para comparar texto de forma flexible."""
-    if not texto:
-        return ""
-    texto = texto.lower()
-    texto = unicodedata.normalize("NFKD", texto)
-    texto = "".join(c for c in texto if not unicodedata.combining(c))
-    return texto
-
-
-def clasificar(texto_completo):
-    """Devuelve la lista de categorías de negocio que matchean este texto."""
-    texto_norm = normalizar(texto_completo)
-    if any(normalizar(neg) in texto_norm for neg in NEGATIVE_KEYWORDS):
-        return []
-    categorias_encontradas = []
-    for clave, info in CATEGORIES.items():
-        for kw in info["keywords"]:
-            if normalizar(kw) in texto_norm:
-                categorias_encontradas.append(clave)
-                break
-    return categorias_encontradas
 
 
 def fetch_pagina(page):
@@ -160,18 +138,47 @@ def log_run(mensaje, nivel="info"):
         json.dump(entradas, f, ensure_ascii=False, indent=2)
 
 
+def procesar_candidatos(candidatos, ocids_vistos, nuevas):
+    """
+    Aplica deduplicación (contra lo ya visto en esta corrida o en corridas
+    anteriores) y clasificación por categoría de negocio a una lista de
+    licitaciones ya extraídas de cualquier fuente. Las relevantes y nuevas
+    se agregan a 'nuevas'. Regresa cuántas se agregaron.
+    """
+    agregadas = 0
+    for campos in candidatos:
+        if not campos.get("ocid"):
+            continue
+        if campos["ocid"] in ocids_vistos:
+            continue
+        ocids_vistos.add(campos["ocid"])
+
+        texto_completo = f"{campos.get('titulo', '')} {campos.get('descripcion', '')} {campos.get('comprador', '')}"
+        categorias = clasificar(texto_completo)
+        if not categorias:
+            continue  # no relevante para el negocio de GECC
+
+        campos["categorias"] = categorias
+        campos["detectado_en"] = datetime.now(timezone.utc).isoformat()
+        nuevas.append(campos)
+        agregadas += 1
+    return agregadas
+
+
 def main():
     existentes = cargar_existentes()
     ocids_vistos = {l["ocid"] for l in existentes["licitaciones"] if l.get("ocid")}
 
     nuevas = []
-    errores_paginas = 0
 
+    # Fuente 1: Contrataciones Abiertas (API federal)
+    candidatos_federal = []
+    errores_paginas = 0
     for page in range(1, MAX_PAGES_PER_RUN + 1):
         resultado = fetch_pagina(page)
         if "_error" in resultado:
             errores_paginas += 1
-            log_run(f"Error al descargar página {page}: {resultado['_error']}", "error")
+            log_run(f"Error al descargar página {page} (federal): {resultado['_error']}", "error")
             if errores_paginas >= 3:
                 break
             continue
@@ -182,29 +189,36 @@ def main():
 
         for record in records:
             campos = extraer_campos(record)
-            if not campos or not campos["ocid"]:
-                continue
-            if campos["ocid"] in ocids_vistos:
-                continue
-            ocids_vistos.add(campos["ocid"])
-
-            texto_completo = f"{campos['titulo']} {campos['descripcion']} {campos['comprador']}"
-            categorias = clasificar(texto_completo)
-            if not categorias:
-                continue  # no relevante para el negocio de GECC
-
-            campos["categorias"] = categorias
-            campos["detectado_en"] = datetime.now(timezone.utc).isoformat()
-            nuevas.append(campos)
+            if campos:
+                candidatos_federal.append(campos)
 
         time.sleep(0.5)  # ser cordial con la API del gobierno
+    agregadas_federal = procesar_candidatos(candidatos_federal, ocids_vistos, nuevas)
+
+    # Fuente 2: Obra Pública del Estado de Guanajuato
+    candidatos_gto, error_gto = guanajuato_estatal.obtener_licitaciones()
+    if error_gto:
+        log_run(error_gto, "error")
+    agregadas_gto = procesar_candidatos(candidatos_gto, ocids_vistos, nuevas)
+
+    # Fuente 3: Convocatorias y Licitaciones del Municipio de León
+    candidatos_leon, error_leon = leon.obtener_licitaciones()
+    if error_leon:
+        log_run(error_leon, "error")
+    agregadas_leon = procesar_candidatos(candidatos_leon, ocids_vistos, nuevas)
 
     existentes["licitaciones"] = nuevas + existentes["licitaciones"]
     existentes["ultima_actualizacion"] = datetime.now(timezone.utc).isoformat()
 
     guardar(existentes)
-    log_run(f"Corrida completada. Nuevas licitaciones relevantes encontradas: {len(nuevas)}.")
-    print(f"Listo. {len(nuevas)} licitaciones nuevas relevantes agregadas.")
+    log_run(
+        "Corrida completada. Nuevas licitaciones relevantes: "
+        f"{agregadas_federal} federal, {agregadas_gto} Guanajuato estatal, {agregadas_leon} León."
+    )
+    print(
+        f"Listo. {len(nuevas)} licitaciones nuevas relevantes agregadas "
+        f"(federal: {agregadas_federal}, Guanajuato estatal: {agregadas_gto}, León: {agregadas_leon})."
+    )
 
 
 if __name__ == "__main__":

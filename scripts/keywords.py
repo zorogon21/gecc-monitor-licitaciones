@@ -10,7 +10,13 @@ Para ajustar la sensibilidad del agente, edita estas listas:
   existen.
 - Agrega frases a NEGATIVE_KEYWORDS si el agente está trayendo basura
   (falsos positivos) de forma repetida.
+
+normalizar()/clasificar() viven aquí (y no en main.py) para que todas las
+fuentes (scripts/fuentes/*.py) puedan importarlas sin crear un import
+circular con main.py.
 """
+
+import unicodedata
 
 CATEGORIES = {
     "alumbrado_luminarias": {
@@ -103,3 +109,27 @@ PRIORITY_STATES = [
     "Guanajuato", "Querétaro", "Jalisco", "Nuevo León", "Ciudad de México",
     "Estado de México",
 ]
+
+
+def normalizar(texto):
+    """Quita acentos y pasa a minúsculas para comparar texto de forma flexible."""
+    if not texto:
+        return ""
+    texto = texto.lower()
+    texto = unicodedata.normalize("NFKD", texto)
+    texto = "".join(c for c in texto if not unicodedata.combining(c))
+    return texto
+
+
+def clasificar(texto_completo):
+    """Devuelve la lista de categorías de negocio que matchean este texto."""
+    texto_norm = normalizar(texto_completo)
+    if any(normalizar(neg) in texto_norm for neg in NEGATIVE_KEYWORDS):
+        return []
+    categorias_encontradas = []
+    for clave, info in CATEGORIES.items():
+        for kw in info["keywords"]:
+            if normalizar(kw) in texto_norm:
+                categorias_encontradas.append(clave)
+                break
+    return categorias_encontradas
