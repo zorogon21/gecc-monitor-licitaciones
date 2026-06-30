@@ -41,6 +41,11 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 LICITACIONES_PATH = os.path.join(DATA_DIR, "licitaciones.json")
 LOG_PATH = os.path.join(DATA_DIR, "run_log.json")
 
+# Si una licitación no trae fecha límite (p.ej. el portal estatal de
+# Guanajuato, que solo da PDFs por etapa), se asume vencida cuando su fecha
+# de publicación tiene más de esta cantidad de días.
+DIAS_MAX_SIN_FECHA_LIMITE = 60
+
 
 def fetch_pagina(page):
     url = f"{API_BASE}?pageSize={PAGE_SIZE}&page={page}"
@@ -138,6 +143,58 @@ def log_run(mensaje, nivel="info"):
         json.dump(entradas, f, ensure_ascii=False, indent=2)
 
 
+def _parsear_fecha(fecha_str):
+    """
+    Intenta interpretar una fecha en formato ISO 8601 (con o sin 'Z', con o
+    sin hora). Regresa un datetime con tzinfo en UTC, o None si el valor
+    está vacío o no se pudo interpretar.
+    """
+    if not fecha_str or not isinstance(fecha_str, str):
+        return None
+    try:
+        dt = datetime.fromisoformat(fecha_str.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except ValueError:
+        return None
+
+
+def filtrar_vigentes(licitaciones, ahora=None):
+    """
+    Descarta licitaciones vencidas, sin importar de qué fuente vengan:
+    - Si tienen 'fecha_limite' y ya pasó respecto a 'ahora', se excluyen.
+    - Si NO tienen 'fecha_limite' interpretable pero sí 'fecha_publicacion',
+      y esta tiene más de DIAS_MAX_SIN_FECHA_LIMITE días de antigüedad, se
+      excluyen (es muy probable que ya hayan cerrado su periodo de
+      propuestas aunque no tengamos la fecha límite exacta).
+    - Si no hay ninguna fecha interpretable, se conserva: no se descarta
+      por falta de información.
+    Se usa tanto sobre licitaciones recién detectadas como sobre las que ya
+    estaban guardadas, para que data/licitaciones.json se vaya podando solo
+    con el tiempo en lugar de crecer indefinidamente.
+    """
+    if ahora is None:
+        ahora = datetime.now(timezone.utc)
+
+    vigentes = []
+    for lic in licitaciones:
+        fecha_limite = _parsear_fecha(lic.get("fecha_limite"))
+        if fecha_limite is not None:
+            if fecha_limite < ahora:
+                continue  # vencida: ya pasó su fecha límite
+            vigentes.append(lic)
+            continue
+
+        fecha_publicacion = _parsear_fecha(lic.get("fecha_publicacion"))
+        if fecha_publicacion is not None and (ahora - fecha_publicacion).days > DIAS_MAX_SIN_FECHA_LIMITE:
+            continue  # sin fecha límite, pero publicada hace demasiado tiempo
+
+        vigentes.append(lic)
+
+    return vigentes
+
+
 def procesar_candidatos(candidatos, ocids_vistos, nuevas):
     """
     Aplica deduplicación (contra lo ya visto en esta corrida o en corridas
@@ -207,17 +264,24 @@ def main():
         log_run(error_leon, "error")
     agregadas_leon = procesar_candidatos(candidatos_leon, ocids_vistos, nuevas)
 
-    existentes["licitaciones"] = nuevas + existentes["licitaciones"]
+    todas = nuevas + existentes["licitaciones"]
+    total_antes_de_podar = len(todas)
+    vigentes = filtrar_vigentes(todas)
+    podadas = total_antes_de_podar - len(vigentes)
+
+    existentes["licitaciones"] = vigentes
     existentes["ultima_actualizacion"] = datetime.now(timezone.utc).isoformat()
 
     guardar(existentes)
     log_run(
         "Corrida completada. Nuevas licitaciones relevantes: "
-        f"{agregadas_federal} federal, {agregadas_gto} Guanajuato estatal, {agregadas_leon} León."
+        f"{agregadas_federal} federal, {agregadas_gto} Guanajuato estatal, {agregadas_leon} León. "
+        f"Vencidas podadas: {podadas}."
     )
     print(
         f"Listo. {len(nuevas)} licitaciones nuevas relevantes agregadas "
-        f"(federal: {agregadas_federal}, Guanajuato estatal: {agregadas_gto}, León: {agregadas_leon})."
+        f"(federal: {agregadas_federal}, Guanajuato estatal: {agregadas_gto}, León: {agregadas_leon}). "
+        f"{podadas} licitaciones vencidas podadas del archivo."
     )
 
 
