@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GECC — Monitor de Licitaciones</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card-bg: #1e293b;
+    --text: #e2e8f0;
+    --text-dim: #94a3b8;
+    --border: #334155;
+    --accent: #38bdf8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px;
+  }
+  header { max-width: 1100px; margin: 0 auto 24px; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .subt { color: var(--text-dim); font-size: 0.9rem; }
+  .controles {
+    max-width: 1100px; margin: 0 auto 20px;
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  }
+  .chip {
+    border: 1px solid var(--chip-color, var(--border));
+    background: transparent; color: var(--chip-color, var(--text));
+    padding: 6px 14px; border-radius: 999px; cursor: pointer;
+    font-size: 0.85rem; transition: all 0.15s;
+  }
+  .chip.activo { background: var(--chip-color, var(--accent)); color: #0f172a; font-weight: 600; }
+  select, input[type=text] {
+    background: var(--card-bg); color: var(--text); border: 1px solid var(--border);
+    padding: 7px 12px; border-radius: 8px; font-size: 0.85rem;
+  }
+  .grid {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 16px;
+  }
+  .card {
+    background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px; display: flex; flex-direction: column; gap: 8px;
+  }
+  .card h3 { margin: 0; font-size: 1rem; line-height: 1.35; }
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; }
+  .badge { font-size: 0.7rem; padding: 3px 9px; border-radius: 999px; color: #0f172a; font-weight: 600; }
+  .meta { font-size: 0.8rem; color: var(--text-dim); }
+  .fechas {
+    display: flex; gap: 14px; font-size: 0.78rem;
+    border-top: 1px solid var(--border); padding-top: 8px; margin-top: 4px;
+  }
+  .fechas div b { display: block; color: var(--text); }
+  .desc { font-size: 0.83rem; color: var(--text-dim); line-height: 1.4; }
+  a.link-btn { margin-top: 6px; align-self: flex-start; color: var(--accent); text-decoration: none; font-size: 0.8rem; font-weight: 600; }
+  a.link-btn:hover { text-decoration: underline; }
+  .vacio { text-align: center; color: var(--text-dim); padding: 60px 20px; max-width: 1100px; margin: 0 auto; }
+  .contador { max-width: 1100px; margin: 0 auto 12px; font-size: 0.85rem; color: var(--text-dim); }
+</style>
+</head>
+<body>
+<header>
+  <h1>📋 GECC — Monitor de Licitaciones</h1>
+  <div class="subt">Última actualización: Aún no se ha ejecutado · Se actualiza automáticamente cada 2 horas</div>
+</header>
+
+<div class="controles">
+  <button class="chip" data-cat="alumbrado_luminarias" style="--chip-color:#f5a524">Alumbrado público y luminarias</button><button class="chip" data-cat="medidores_agua" style="--chip-color:#3b82f6">Medidores de agua / sistemas hídricos</button><button class="chip" data-cat="maquinaria_pesada" style="--chip-color:#a855f7">Maquinaria pesada</button><button class="chip" data-cat="construccion_obra" style="--chip-color:#10b981">Construcción y obra civil</button>
+  <select id="filtroEstado">
+    <option value="">Todos los estados</option>
+    
+  </select>
+  <input type="text" id="buscador" placeholder="Buscar por palabra...">
+</div>
+
+<div class="contador" id="contador"></div>
+<div class="grid" id="grid"></div>
+<div class="vacio" id="vacio" style="display:none">No hay licitaciones que coincidan con el filtro actual.</div>
+
+<script>
+const LICITACIONES = [];
+const CATEGORIAS = {"alumbrado_luminarias": {"label": "Alumbrado público y luminarias", "color": "#f5a524", "keywords": ["alumbrado publico", "alumbrado público", "luminaria", "luminarias", "lampara led", "lámpara led", "lamparas led", "lámparas led", "sistema de iluminacion", "sistema de iluminación", "iluminacion vial", "iluminación vial", "iluminacion de calles", "iluminación de calles", "postes de luz", "poste de alumbrado", "luminaria led", "luminarias led", "infraestructura electrica vial", "infraestructura eléctrica vial", "modernizacion del alumbrado", "modernización del alumbrado", "sustitucion de luminarias", "sustitución de luminarias", "tecnologia led", "tecnología led", "equipo electromecanico", "equipo electromecánico", "red de alumbrado", "rehabilitacion de alumbrado", "rehabilitación de alumbrado", "iluminacion carretera", "iluminación carretera", "luminarias solares", "alumbrado solar", "parque luminoso"]}, "medidores_agua": {"label": "Medidores de agua / sistemas hídricos", "color": "#3b82f6", "keywords": ["medidor de agua", "medidores de agua", "macromedidor", "macromedicion", "macromedición", "micromedicion", "micromedición", "telemetria de agua", "telemetría de agua", "smart meter", "medicion inteligente", "medición inteligente", "sistema de medicion", "sistema de medición", "red de agua potable", "infraestructura hidraulica", "infraestructura hidráulica", "pozo de agua", "pozos de agua", "rehabilitacion de pozo", "rehabilitación de pozo", "equipo de bombeo", "planta potabilizadora", "plataforma de monitoreo de agua", "control de fugas de agua", "organismo operador de agua", "comision estatal de agua", "comisión estatal del agua", "gestion del agua", "gestión del agua"]}, "maquinaria_pesada": {"label": "Maquinaria pesada", "color": "#a855f7", "keywords": ["retroexcavadora", "excavadora", "bulldozer", "buldozer", "motoconformadora", "motoniveladora", "compactador", "compactadora", "cargador frontal", "minicargador", "rodillo vibratorio", "grua", "grúa", "lowboy", "plataforma baja", "camion pipa", "camión pipa", "pipa de agua", "vactor", "renta de maquinaria", "arrendamiento de maquinaria", "maquinaria de construccion", "maquinaria de construcción", "equipo pesado", "tractocamion", "tractocamión", "vibrocompactador", "retroexcavadoras", "excavadoras", "venta de maquinaria", "adquisicion de maquinaria", "adquisición de maquinaria"]}, "construccion_obra": {"label": "Construcción y obra civil", "color": "#10b981", "keywords": ["pavimentacion", "pavimentación", "construccion de calle", "construcción de calle", "construccion de calles", "construcción de calles", "rehabilitacion de calle", "rehabilitación de calle", "obra civil", "obra publica", "obra pública", "construccion de edificio", "construcción de edificio", "ampliacion de red", "ampliación de red", "drenaje pluvial", "construccion de carretera", "construcción de carretera", "bacheo", "concreto hidraulico", "concreto hidráulico", "concreto asfaltico", "concreto asfáltico", "guarniciones y banquetas", "infraestructura urbana", "rehabilitacion de pavimento", "rehabilitación de pavimento", "construccion de puente", "construcción de puente", "urbanizacion", "urbanización", "red de drenaje", "alcantarillado", "electrificacion", "electrificación"]}};
+
+let filtroCategoria = null;
+let filtroEstado = "";
+let filtroTexto = "";
+
+function render() {
+  const grid = document.getElementById('grid');
+  const vacio = document.getElementById('vacio');
+  const contador = document.getElementById('contador');
+  grid.innerHTML = '';
+
+  const filtradas = LICITACIONES.filter(l => {
+    if (filtroCategoria && !l.categorias.includes(filtroCategoria)) return false;
+    if (filtroEstado && l.ubicacion !== filtroEstado) return false;
+    if (filtroTexto) {
+      const t = (l.titulo + ' ' + l.descripcion + ' ' + l.comprador).toLowerCase();
+      if (!t.includes(filtroTexto.toLowerCase())) return false;
+    }
+    return true;
+  });
+
+  contador.textContent = filtradas.length + ' licitacion(es) encontradas de ' + LICITACIONES.length + ' totales detectadas';
+
+  if (filtradas.length === 0) {
+    vacio.style.display = 'block';
+    return;
+  }
+  vacio.style.display = 'none';
+
+  for (const l of filtradas) {
+    const badges = l.categorias.map(c => {
+      const info = CATEGORIAS[c];
+      return `<span class="badge" style="background:${info.color}">${info.label}</span>`;
+    }).join('');
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="badges">${badges}</div>
+      <h3>${l.titulo}</h3>
+      <div class="meta">🏛️ ${l.comprador} &nbsp;·&nbsp; 📍 ${l.ubicacion}</div>
+      <div class="desc">${l.descripcion}</div>
+      <div class="fechas">
+        <div>Publicación<b>${l.fecha_publicacion}</b></div>
+        <div>Fecha límite / bases<b>${l.fecha_limite}</b></div>
+      </div>
+      ${l.link ? `<a class="link-btn" href="${l.link}" target="_blank" rel="noopener">Ver convocatoria completa →</a>` : ''}
+    `;
+    grid.appendChild(card);
+  }
+}
+
+document.querySelectorAll('.chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const cat = chip.dataset.cat;
+    if (filtroCategoria === cat) {
+      filtroCategoria = null;
+      chip.classList.remove('activo');
+    } else {
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('activo'));
+      filtroCategoria = cat;
+      chip.classList.add('activo');
+    }
+    render();
+  });
+});
+
+document.getElementById('filtroEstado').addEventListener('change', e => {
+  filtroEstado = e.target.value;
+  render();
+});
+
+document.getElementById('buscador').addEventListener('input', e => {
+  filtroTexto = e.target.value;
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

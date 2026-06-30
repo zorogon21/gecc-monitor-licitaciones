@@ -1,0 +1,46 @@
+name: Monitor de licitaciones GECC
+
+on:
+  schedule:
+    # Corre cada 2 horas, todos los días (hora UTC)
+    - cron: "0 */2 * * *"
+  workflow_dispatch: {}  # permite correrlo manualmente desde la pestaña "Actions"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  buscar-y-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Buscar licitaciones nuevas
+        run: python scripts/main.py
+
+      - name: Generar la página
+        run: python scripts/build_site.py
+
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config user.name "gecc-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ index.html
+          git diff --quiet --cached || git commit -m "Actualización automática de licitaciones"
+          git push
+
+      - name: Subir la página para GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Publicar en GitHub Pages
+        uses: actions/deploy-pages@v4
