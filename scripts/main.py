@@ -3,17 +3,18 @@
 main.py — Orquestador del monitor de licitaciones GECC.
 
 Qué hace cada corrida:
-1. Descarga licitaciones recientes de tres fuentes: la API oficial de
-   Contrataciones Abiertas del Gobierno de México (api.datos.gob.mx), el
-   portal de Obra Pública del Estado de Guanajuato y el portal de
-   Convocatorias y Licitaciones del Municipio de León (ver scripts/fuentes/).
+1. Descarga licitaciones recientes de la API oficial de Contrataciones
+   Abiertas del Gobierno de México (api.datos.gob.mx) y de cada fuente
+   municipal/estatal en scripts/fuentes/ (ver FUENTES_SIMPLES más abajo).
 2. Clasifica cada una contra las categorías de negocio de GECC leyendo el
    texto completo (no solo una palabra exacta), usando keywords.clasificar
-   para las tres fuentes por igual.
+   para todas las fuentes por igual.
 3. Compara contra lo ya detectado en corridas anteriores (data/licitaciones.json)
    para no duplicar, sin importar de qué fuente venga.
-4. Guarda el resultado actualizado.
-5. Llama a build_site.py para regenerar la página HTML.
+4. Descarta licitaciones vencidas (filtrar_vigentes), tanto de lo nuevo
+   como de lo ya guardado.
+5. Guarda el resultado actualizado.
+6. Llama a build_site.py para regenerar la página HTML.
 
 Diseñado para correr cada 2 horas vía GitHub Actions (ver
 .github/workflows/monitor.yml). Si una fuente cambia de forma o un campo no
@@ -31,7 +32,28 @@ from urllib.error import URLError, HTTPError
 
 sys.path.insert(0, os.path.dirname(__file__))
 from keywords import clasificar  # noqa: E402
-from fuentes import guanajuato_estatal, leon  # noqa: E402
+from fuentes import (  # noqa: E402
+    apaseo_el_grande,
+    celaya,
+    guanajuato_capital,
+    guanajuato_estatal,
+    leon,
+    salamanca,
+    uriangato,
+)
+
+# Fuentes que solo necesitan llamar a obtener_licitaciones() (a diferencia
+# de la API federal, que pagina con su propio ciclo más abajo). Cada
+# elemento es (nombre para mostrar en logs, módulo de scripts/fuentes/).
+FUENTES_SIMPLES = [
+    ("Guanajuato estatal", guanajuato_estatal),
+    ("León", leon),
+    ("Celaya", celaya),
+    ("Apaseo el Grande", apaseo_el_grande),
+    ("Salamanca", salamanca),
+    ("Guanajuato capital", guanajuato_capital),
+    ("Uriangato", uriangato),
+]
 
 API_BASE = "https://api.datos.gob.mx/v2/contratacionesabiertas"
 PAGE_SIZE = 200
@@ -252,17 +274,13 @@ def main():
         time.sleep(0.5)  # ser cordial con la API del gobierno
     agregadas_federal = procesar_candidatos(candidatos_federal, ocids_vistos, nuevas)
 
-    # Fuente 2: Obra Pública del Estado de Guanajuato
-    candidatos_gto, error_gto = guanajuato_estatal.obtener_licitaciones()
-    if error_gto:
-        log_run(error_gto, "error")
-    agregadas_gto = procesar_candidatos(candidatos_gto, ocids_vistos, nuevas)
-
-    # Fuente 3: Convocatorias y Licitaciones del Municipio de León
-    candidatos_leon, error_leon = leon.obtener_licitaciones()
-    if error_leon:
-        log_run(error_leon, "error")
-    agregadas_leon = procesar_candidatos(candidatos_leon, ocids_vistos, nuevas)
+    resumen_fuentes = [f"{agregadas_federal} federal"]
+    for nombre, modulo in FUENTES_SIMPLES:
+        candidatos, error = modulo.obtener_licitaciones()
+        if error:
+            log_run(error, "error")
+        agregadas = procesar_candidatos(candidatos, ocids_vistos, nuevas)
+        resumen_fuentes.append(f"{agregadas} {nombre}")
 
     todas = nuevas + existentes["licitaciones"]
     total_antes_de_podar = len(todas)
@@ -273,14 +291,13 @@ def main():
     existentes["ultima_actualizacion"] = datetime.now(timezone.utc).isoformat()
 
     guardar(existentes)
+    detalle = ", ".join(resumen_fuentes)
     log_run(
-        "Corrida completada. Nuevas licitaciones relevantes: "
-        f"{agregadas_federal} federal, {agregadas_gto} Guanajuato estatal, {agregadas_leon} León. "
+        f"Corrida completada. Nuevas licitaciones relevantes: {detalle}. "
         f"Vencidas podadas: {podadas}."
     )
     print(
-        f"Listo. {len(nuevas)} licitaciones nuevas relevantes agregadas "
-        f"(federal: {agregadas_federal}, Guanajuato estatal: {agregadas_gto}, León: {agregadas_leon}). "
+        f"Listo. {len(nuevas)} licitaciones nuevas relevantes agregadas ({detalle}). "
         f"{podadas} licitaciones vencidas podadas del archivo."
     )
 
