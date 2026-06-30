@@ -18,5 +18,25 @@
     "timestamp": "2026-06-30T18:59:24.673894+00:00",
     "nivel": "info",
     "mensaje": "Corrida completada. Nuevas licitaciones relevantes encontradas: 0."
+  },
+  {
+    "timestamp": "2026-06-30T19:06:27.605805+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 1: <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-06-30T19:06:57.653780+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 2: <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-06-30T19:07:27.688645+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 3: <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-06-30T19:07:27.688951+00:00",
+    "nivel": "info",
+    "mensaje": "Corrida completada. Nuevas licitaciones relevantes encontradas: 0."
   }
 ]
