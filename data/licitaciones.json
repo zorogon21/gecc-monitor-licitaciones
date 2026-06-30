@@ -1,6 +1,81 @@
 {
   "licitaciones": [
     {
+      "ocid": "celaya-licitacion-de-caracter-publica-nacional-presencial-por-partidas-lpnp-mce-06-2026-2da-convocatoria-adquisicion-de-materiales-electricos-y-electronicos-para-el-mantenimiento-anual-del-alumbrado-publi",
+      "titulo": "LICITACIÓN DE CARÁCTER PÚBLICA NACIONAL PRESENCIAL POR PARTIDAS LPNP-MCE-06-2026 2DA. CONVOCATORIA &#8220;ADQUISICIÓN DE MATERIALES ELÉCTRICOS Y ELECTRÓNICOS PARA EL MANTENIMIENTO ANUAL DEL ALUMBRADO PÚBLICO DEL MUNICIPIO DE CELAYA GTO. PARA EL EJERCICIO 2026&#8221;",
+      "descripcion": "",
+      "comprador": "Municipio de Celaya, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-06-17T00:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://www.celaya.gob.mx/consultas/licitacion-de-caracter-publica-nacional-presencial-por-partidas-lpnp-mce-06-2026-2da-convocatoria-adquisicion-de-materiales-electricos-y-electronicos-para-el-mantenimiento-anual-del-alumbrado-publi/",
+      "fuente": "Licitaciones y Convocatorias — Presidencia Municipal de Celaya",
+      "categorias": [
+        "alumbrado_luminarias"
+      ],
+      "detectado_en": "2026-06-30T23:56:04.761277+00:00"
+    },
+    {
+      "ocid": "celaya-licitacion-num-lpnp-mce-09-2026-contratacion-del-servicio-de-renta-de-maquinaria-para-la-direccion-general-de-servicios-municipales-del-municipio-de-celaya",
+      "titulo": "Licitación NÚM. LPNP-MCE-09-2026: CONTRATACIÓN DEL SERVICIO DE RENTA DE MAQUINARIA PARA LA DIRECCIÓN GENERAL DE SERVICIOS MUNICIPALES DEL MUNICIPIO DE CELAYA",
+      "descripcion": "",
+      "comprador": "Municipio de Celaya, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-06-03T00:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://www.celaya.gob.mx/consultas/licitacion-num-lpnp-mce-09-2026-contratacion-del-servicio-de-renta-de-maquinaria-para-la-direccion-general-de-servicios-municipales-del-municipio-de-celaya/",
+      "fuente": "Licitaciones y Convocatorias — Presidencia Municipal de Celaya",
+      "categorias": [
+        "maquinaria_pesada"
+      ],
+      "detectado_en": "2026-06-30T23:56:04.761872+00:00"
+    },
+    {
+      "ocid": "celaya-convocatoria-construccion-de-calle-con-concreto-en-el-municipio-de-celaya-gto-en-la-colonia-santos-degollado-en-la-calle-miguel-hidalgo-y-costilla-tramo-de-calle-la-palma-a-avenida-el-sauz",
+      "titulo": "Convocatoria: CONSTRUCCION DE CALLE CON CONCRETO EN EL MUNICIPIO DE CELAYA, GTO., EN LA COLONIA SANTOS DEGOLLADO, EN LA CALLE MIGUEL HIDALGO Y COSTILLA, TRAMO DE CALLE LA PALMA A AVENIDA EL SAUZ",
+      "descripcion": "",
+      "comprador": "Municipio de Celaya, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-05-31T00:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://www.celaya.gob.mx/consultas/convocatoria-construccion-de-calle-con-concreto-en-el-municipio-de-celaya-gto-en-la-colonia-santos-degollado-en-la-calle-miguel-hidalgo-y-costilla-tramo-de-calle-la-palma-a-avenida-el-sauz/",
+      "fuente": "Licitaciones y Convocatorias — Presidencia Municipal de Celaya",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-06-30T23:56:04.762423+00:00"
+    },
+    {
+      "ocid": "celaya-38292",
+      "titulo": "Licitacion LPNP-MCE-06-2026: ADQUISICIÓN DE MATERIALES ELÉCTRICOS Y ELECTRÓNICOS PARA EL MANTENIMIENTO ANUAL DEL ALUMBRADO PÚBLICO DEL MUNICIPIO DE CELAYA",
+      "descripcion": "",
+      "comprador": "Municipio de Celaya, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-05-18T00:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://www.celaya.gob.mx/consultas/38292/",
+      "fuente": "Licitaciones y Convocatorias — Presidencia Municipal de Celaya",
+      "categorias": [
+        "alumbrado_luminarias"
+      ],
+      "detectado_en": "2026-06-30T23:56:04.762937+00:00"
+    },
+    {
+      "ocid": "apgrande-26973",
+      "titulo": "MAG/LPN/002/2026",
+      "descripcion": "PRIMERA CONVOCATORIA A LA LICITACIÓN PÚBLICA NACIONAL PRESENCIAL CONVOCANTE: MUNICIPIO DE APASEO EL GRANDE, GUANAJUATO, ATRAVÉS DEL COMITÉ DE ADQUISICIONES, ENAJENACIONES, ARRENDAMIENTOS Y CONTRATACIÓN DE SERVICIOS. CONVOCATORIA DE LA LICITACIÓN PÚBLICA NACIONAL PRESENCIAL &nbsp; NÚMERO DE LICITACIÓN: MAG/LPN/002/2026. &nbsp; OBJETO DE LA LICITACIÓN: &nbsp; “ADQUISICION DE DOS CAMIONES COMPACTADORES DE RECOLECCIÓN DE RESIDUOS SÓLIDOS, CADA UNO CON CAPACIDAD DE CARGA DE 14.7 TONELADAS” De conform",
+      "comprador": "Municipio de Apaseo el Grande, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-06-01T13:37:32Z",
+      "fecha_limite": "",
+      "link": "https://apaseoelgrande.gob.mx/mag-lpn-002-2026/",
+      "fuente": "Licitaciones — Municipio de Apaseo el Grande",
+      "categorias": [
+        "maquinaria_pesada"
+      ],
+      "detectado_en": "2026-06-30T23:56:05.713376+00:00"
+    },
+    {
       "ocid": "gto-estatal-2725",
       "titulo": "Rehabilitación de la carretera Libramiento San Felipe, segunda etapa, 2026",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/IV/OB/OP/2026-080",
@@ -421,5 +496,5 @@
       "detectado_en": "2026-06-30T19:43:44.761223+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-06-30T20:03:21.269949+00:00"
+  "ultima_actualizacion": "2026-06-30T23:56:38.229871+00:00"
 }
