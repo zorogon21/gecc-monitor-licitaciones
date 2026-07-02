@@ -34,6 +34,7 @@ jobs:
         run: |
           git config user.name "gecc-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
+          git pull --rebase --autostash origin main
           git add data/ index.html
           git diff --quiet --cached || git commit -m "Actualización automática de licitaciones"
           git push
