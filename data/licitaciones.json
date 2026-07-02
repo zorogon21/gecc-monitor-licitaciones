@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "salamanca-29b2b1d0b706",
+      "titulo": "ADQUISICIÓN DE LUMINARIAS LED SMD 100W",
+      "descripcion": "convoca a los interesados a participar en la licitación pública para la adquisición de los siguientes bienes y servicios",
+      "comprador": "Municipio de Salamanca, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "https://gaceta.salamanca.gob.mx/documents/licitaciones/53cc5bd7-027e-40d5-9a1c-d3493e111004.pdf",
+      "fuente": "Licitaciones — Municipio de Salamanca",
+      "categorias": [
+        "alumbrado_luminarias"
+      ],
+      "detectado_en": "2026-07-02T16:42:37.910160+00:00"
+    },
+    {
       "ocid": "celaya-licitacion-de-caracter-publica-nacional-presencial-por-partidas-lpnp-mce-06-2026-2da-convocatoria-adquisicion-de-materiales-electricos-y-electronicos-para-el-mantenimiento-anual-del-alumbrado-publi",
       "titulo": "LICITACIÓN DE CARÁCTER PÚBLICA NACIONAL PRESENCIAL POR PARTIDAS LPNP-MCE-06-2026 2DA. CONVOCATORIA &#8220;ADQUISICIÓN DE MATERIALES ELÉCTRICOS Y ELECTRÓNICOS PARA EL MANTENIMIENTO ANUAL DEL ALUMBRADO PÚBLICO DEL MUNICIPIO DE CELAYA GTO. PARA EL EJERCICIO 2026&#8221;",
       "descripcion": "",
@@ -496,5 +511,5 @@
       "detectado_en": "2026-06-30T19:43:44.761223+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-02T10:22:29.835141+00:00"
+  "ultima_actualizacion": "2026-07-02T16:43:05.802893+00:00"
 }
