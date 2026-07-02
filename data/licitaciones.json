@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gtocap-14695",
+      "titulo": "ACTA DE PRESENTACIÓN Y APERTURA DE OFERTAS DE LA LICITACIÓN RESTRINGIDA NO. LR/DAySG-005/2023 CORRESPONDIENTE AL  «ARRENDAMIENTO DE MAQUINARIA DEL PROGRAMA DE DESARROLLO TERRITORIAL SUSTENTABLE A TRAVÉS DEL FIDEICOMISO DE BORDARÍA E INFRAESTRUCTURA RURAL PARA EL ESTADO DE GUANAJUATO FIBIR 2023»",
+      "descripcion": "",
+      "comprador": "Municipio de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "https://www.guanajuatocapital.gob.mx/ova_doc/14695/",
+      "fuente": "Licitaciones y Convocatorias — Municipio de Guanajuato (capital)",
+      "categorias": [
+        "maquinaria_pesada"
+      ],
+      "detectado_en": "2026-07-02T18:51:28.836883+00:00"
+    },
+    {
       "ocid": "salamanca-29b2b1d0b706",
       "titulo": "ADQUISICIÓN DE LUMINARIAS LED SMD 100W",
       "descripcion": "convoca a los interesados a participar en la licitación pública para la adquisición de los siguientes bienes y servicios",
@@ -511,5 +526,5 @@
       "detectado_en": "2026-06-30T19:43:44.761223+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-02T18:19:48.773934+00:00"
+  "ultima_actualizacion": "2026-07-02T18:51:29.048875+00:00"
 }
