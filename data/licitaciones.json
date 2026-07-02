@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2727",
+      "titulo": "Sustitución de elevadores en la Biblioteca Central Estatal Wigberto Jiménez Moreno, en el municipio de León, Gto.",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/SC/2026-085",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-06-29T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/208620260001/LICITACION/PUB_5FC57A03184EF0D9F3F39EDC2.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-02T23:46:22.608318+00:00"
+    },
+    {
       "ocid": "gtocap-14695",
       "titulo": "ACTA DE PRESENTACIÓN Y APERTURA DE OFERTAS DE LA LICITACIÓN RESTRINGIDA NO. LR/DAySG-005/2023 CORRESPONDIENTE AL  «ARRENDAMIENTO DE MAQUINARIA DEL PROGRAMA DE DESARROLLO TERRITORIAL SUSTENTABLE A TRAVÉS DEL FIDEICOMISO DE BORDARÍA E INFRAESTRUCTURA RURAL PARA EL ESTADO DE GUANAJUATO FIBIR 2023»",
       "descripcion": "",
@@ -526,5 +541,5 @@
       "detectado_en": "2026-06-30T19:43:44.761223+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-02T18:51:29.048875+00:00"
+  "ultima_actualizacion": "2026-07-02T23:46:57.033532+00:00"
 }
