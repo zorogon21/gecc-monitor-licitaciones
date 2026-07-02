@@ -57,7 +57,7 @@ FUENTES_SIMPLES = [
 
 API_BASE = "https://api.datos.gob.mx/v2/contratacionesabiertas"
 PAGE_SIZE = 200
-MAX_PAGES_PER_RUN = 15  # tope de seguridad para no tardar horas ni saturar la API
+MAX_PAGES_PER_RUN = 5  # tope de seguridad para no tardar horas ni saturar la API
 REQUEST_TIMEOUT = 30
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 LICITACIONES_PATH = os.path.join(DATA_DIR, "licitaciones.json")
@@ -271,7 +271,7 @@ def main():
             if campos:
                 candidatos_federal.append(campos)
 
-        time.sleep(0.5)  # ser cordial con la API del gobierno
+        time.sleep(0.2)  # ser cordial con la API del gobierno
     agregadas_federal = procesar_candidatos(candidatos_federal, ocids_vistos, nuevas)
 
     resumen_fuentes = [f"{agregadas_federal} federal"]

@@ -26,7 +26,7 @@ from urllib.request import Request, urlopen
 
 ENDPOINT = "https://leon.gob.mx/modulos/licitaciones/ajax_licitaciones_teso-v2.php"
 REQUEST_TIMEOUT = 30
-MAX_PAGINAS = 10  # ~50 licitaciones más recientes por corrida (el listado viene ordenado de más nueva a más vieja); de sobra para detectar lo nuevo cada 2 horas sin saturar el sitio del municipio
+MAX_PAGINAS = 3  # ~15 licitaciones más recientes por corrida (el listado viene ordenado de más nueva a más vieja); de sobra para detectar lo nuevo cada 2 horas sin saturar el sitio del municipio
 FUENTE = "Convocatorias y Licitaciones — Municipio de León"
 COMPRADOR = "Municipio de León, Guanajuato"
 UBICACION = "Guanajuato"
