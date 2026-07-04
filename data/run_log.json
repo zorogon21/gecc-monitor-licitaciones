@@ -393,5 +393,30 @@
     "timestamp": "2026-07-03T21:47:39.765483+00:00",
     "nivel": "info",
     "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 736 Guanajuato estatal, 0 León, 3 Celaya, 0 Apaseo el Grande, 0 Salamanca, 4 Guanajuato capital, 1 Uriangato. Vencidas podadas: 742."
+  },
+  {
+    "timestamp": "2026-07-04T08:13:03.184570+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-07-04T08:13:33.224498+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 2 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-07-04T08:14:03.320006+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 3 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-07-04T08:14:04.929332+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de León (parcial: 0 obtenidas antes del error): <urlopen error [Errno 111] Connection refused>"
+  },
+  {
+    "timestamp": "2026-07-04T08:14:39.724405+00:00",
+    "nivel": "info",
+    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 734 Guanajuato estatal, 0 León, 3 Celaya, 0 Apaseo el Grande, 0 Salamanca, 8 Guanajuato capital, 1 Uriangato. Vencidas podadas: 746."
   }
 ]
