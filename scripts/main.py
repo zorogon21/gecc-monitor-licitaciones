@@ -38,6 +38,8 @@ from fuentes import (  # noqa: E402
     guanajuato_capital,
     guanajuato_estatal,
     leon,
+    nl_estado,
+    sadm,
     salamanca,
     uriangato,
 )
@@ -53,6 +55,8 @@ FUENTES_SIMPLES = [
     ("Salamanca", salamanca),
     ("Guanajuato capital", guanajuato_capital),
     ("Uriangato", uriangato),
+    ("Nuevo León estatal", nl_estado),
+    ("SADM", sadm),
 ]
 
 API_BASE = "https://api.datos.gob.mx/v2/contratacionesabiertas"
