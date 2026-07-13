@@ -41,6 +41,7 @@ from fuentes import (  # noqa: E402
     nl_estado,
     sadm,
     salamanca,
+    sanpedro,
     uriangato,
 )
 
@@ -55,6 +56,7 @@ FUENTES_SIMPLES = [
     ("Salamanca", salamanca),
     ("Guanajuato capital", guanajuato_capital),
     ("Uriangato", uriangato),
+    ("San Pedro Garza García", sanpedro),
     ("Nuevo León estatal", nl_estado),
     ("SADM", sadm),
 ]
