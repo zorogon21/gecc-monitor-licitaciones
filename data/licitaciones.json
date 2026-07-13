@@ -1,6 +1,126 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2733",
+      "titulo": "Conservación de la carretera San José de Guanajuato-San Antonio de Morales y construcción de gasas de acceso al Nuevo Complejo del Instituto de Formación en Seguridad Pública del Estado, en el municipio de Celaya.",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/INFOSPE/2026-090",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-07-09T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/77520260002/LICITACION/PUB_49B500951103FC0AB57551BEF.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-13T18:16:09.015259+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2732",
+      "titulo": "Atención de puntos conflictivos en la Red de Carreteras Estatales, Coordinación Celaya, 2026",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-088",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-07-09T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260058/LICITACION/PUB_9B903DC3AA808EA6E6098DFEE.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-13T18:16:09.015543+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2734",
+      "titulo": "Atención de puntos conflictivos en la Red de Carreteras Estatales, Coordinación Dolores Hidalgo, 2026",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-089",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-07-09T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260057/LICITACION/BAS_55058C7BB1F17019D6779EF5C.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-13T18:16:09.015809+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2735",
+      "titulo": "Construcción de la primera etapa del estacionamiento norte del ITESI Campus Irapuato",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/ITESI/2026-091",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-07-08T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/173520260001/LICITACION/PUB_41C76C7619BDCA73A6B71B5AC.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-13T18:16:09.016070+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2730",
+      "titulo": "Construcción de dirección, techado, barda perimetral, sustitución de cancha, más obra complementaria en la Primaria Ignacio Allende C.C.T. 11EPR0457Z, ubicada en el municipio de San José Iturbide, Gto.",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/SEG/2026-106",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-07-08T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/321020260005/LICITACION/PUB_33E67619AE8C0C465ADED5AEC.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-13T18:16:09.016348+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2736",
+      "titulo": "Construcción de barda perimetral, techado, sustitución de cancha, rehabilitación y mantenimiento más obra complementaria en la Primaria Moisés Sáenz Garza con C.C.T. 11DPR2261B, ubicada en el municipio de Salamanca, Gto.",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/SEG/2026-107",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-07-08T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/271020260003/LICITACION/PUB_5243A7CA51632A1A7F83D2AFE.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-13T18:16:09.016607+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2731",
+      "titulo": "Construcción de cocina, comedor, techado, sustitución de cancha y barda más obra complementaria en la Primaria Niños Héroes con C.C.T. 11DPR1136X, ubicada en el municipio de Huanímaro, Gto.",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/SEG/2026-108",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-07-08T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/161020260003/LICITACION/PUB_E84A81301E00C930A8D9166E8.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-13T18:16:09.016860+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2737",
+      "titulo": "Construcción de 2 aulas, barda perimetral, techado de cancha más obra complementaria en la Primaria Ciriaco Martínez con C.C.T. 11DPR0643V, ubicada en el municipio de Pénjamo, Gto.",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/SEG/2026-109",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-07-08T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/231020260005/LICITACION/PUB_927BD9D20E052F51F2DB292DA.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-13T18:16:09.017110+00:00"
+    },
+    {
       "ocid": "gto-estatal-2728",
       "titulo": "Atención de puntos conflictivos en la Red de Carreteras Estatales, Coordinación Guanajuato, 2026",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/IV/OB/OP/2026-086",
@@ -541,5 +661,5 @@
       "detectado_en": "2026-06-30T19:43:44.760701+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-13T11:46:20.547481+00:00"
+  "ultima_actualizacion": "2026-07-13T18:17:22.635457+00:00"
 }
