@@ -39,6 +39,7 @@ from fuentes import (  # noqa: E402
     guanajuato_estatal,
     leon,
     nl_estado,
+    queretaro_municipio,
     sadm,
     salamanca,
     sanpedro,
@@ -59,6 +60,7 @@ FUENTES_SIMPLES = [
     ("San Pedro Garza García", sanpedro),
     ("Nuevo León estatal", nl_estado),
     ("SADM", sadm),
+    ("Querétaro municipio", queretaro_municipio),
 ]
 
 API_BASE = "https://api.datos.gob.mx/v2/contratacionesabiertas"
