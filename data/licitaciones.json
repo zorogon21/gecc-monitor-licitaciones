@@ -1,6 +1,36 @@
 {
   "licitaciones": [
     {
+      "ocid": "qro-mpio-LPM-SOPM-004-23",
+      "titulo": "LPM/SOPM/004/23 — RENOVACIÓN Y COMPLEMENTO DE ALUMBRADO PÚBLICO. (CUARTA ETAPA)",
+      "descripcion": "RENOVACIÓN Y COMPLEMENTO DE ALUMBRADO PÚBLICO. (CUARTA ETAPA)",
+      "comprador": "Municipio de Querétaro",
+      "ubicacion": "Querétaro",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "https://municipiodequeretaro.gob.mx/wp-content/uploads/2023/08/LPM-SOPM-004-2023-RENOVACION-Y-COMPLEMENTO-DE-ALUMBRADO-PUBLICO.-CUARTA-ETAPA.pdf",
+      "fuente": "Licitaciones Públicas Municipales — Municipio de Querétaro",
+      "categorias": [
+        "alumbrado_luminarias"
+      ],
+      "detectado_en": "2026-07-15T16:52:40.900987+00:00"
+    },
+    {
+      "ocid": "qro-mpio-LPM-SOPM-008-21",
+      "titulo": "LPM/SOPM/008/21 — RENOVACIÓN Y COMPLEMENTO DE ALUMBRADO PÚBLICO EN EL MUNICIPIO DE QUERÉTARO.",
+      "descripcion": "RENOVACIÓN Y COMPLEMENTO DE ALUMBRADO PÚBLICO EN EL MUNICIPIO DE QUERÉTARO.",
+      "comprador": "Municipio de Querétaro",
+      "ubicacion": "Querétaro",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "https://municipiodequeretaro.gob.mx/wp-content/uploads/2023/08/LPM-SOPM-008-2021-RENOVACION-Y-COMPLEMENTO-DE-ALUMBRADO-PUBLICO-EN-EL-MUNICIPIO-DE-QUERETARO.pdf",
+      "fuente": "Licitaciones Públicas Municipales — Municipio de Querétaro",
+      "categorias": [
+        "alumbrado_luminarias"
+      ],
+      "detectado_en": "2026-07-15T16:52:40.905096+00:00"
+    },
+    {
       "ocid": "sanpedro-SAIA-DA-CL-31-2026",
       "titulo": "Servicio de arrendamiento de maquinaria y suministro de insumos asfálticos para el mantenimiento de vialidades, Servicio de mantenimiento superficial y profundo de pavimento Partida 1, y Servicio de carga, retiro, traslado, manejo y disposición final de diversos materiales Partida 2 N° SAIA-DA-CL-31/2026",
       "descripcion": "LICITACIÓN PÚBLICA NACIONAL PRESENCIAL Servicio de arrendamiento de maquinaria y suministro de insumos asfálticos para el mantenimiento de vialidades, Servicio de mantenimiento superficial y profundo de pavimento Partida 1, y Servicio de carga, retiro, traslado, manejo y disposición final de diversos materiales Partida 2, de acuerdo a las especificaciones y características contenidas en los anexos técnicos de las bases de esta licitación.",
@@ -691,5 +721,5 @@
       "detectado_en": "2026-06-30T19:43:44.760701+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-15T16:31:36.506344+00:00"
+  "ultima_actualizacion": "2026-07-15T16:52:40.905565+00:00"
 }
