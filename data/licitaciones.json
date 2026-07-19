@@ -674,37 +674,7 @@
         "construccion_obra"
       ],
       "detectado_en": "2026-06-30T19:43:44.760204+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2700",
-      "titulo": "Construcción de techado de cancha más barda perimetral en la Primaria Ignacio Allende con C.C.T. 11DPR1992H, ubicada en el municipio de Irapuato, Gto.",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/SEG/2026-059",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-05-19T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/171020260005/LICITACION/PUB_328A86CD5638E0C51F6E9EFDD.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-06-30T19:43:44.760452+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2701",
-      "titulo": "Construcción de techado de cancha, barda perimetral más obra complementaria en la Primaria Francisco I. Madero con C.C.T. 11DPR0400Z, ubicada en el municipio de Tarimoro, Gto.",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/SEG/2026-060",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-05-19T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/391020260002/LICITACION/PUB_41BCB95F0AE9858C4EE0A94A9.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-06-30T19:43:44.760701+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-18T22:34:50.626870+00:00"
+  "ultima_actualizacion": "2026-07-19T07:54:08.129559+00:00"
 }
