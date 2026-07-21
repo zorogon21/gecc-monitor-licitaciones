@@ -629,52 +629,7 @@
         "construccion_obra"
       ],
       "detectado_en": "2026-06-30T19:43:44.759485+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2707",
-      "titulo": "Conservación Periódica de la Carretera Salamanca - Cardenas - Mendoza, 2026",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-072",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-05-21T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/271520260001/LICITACION/PUB_AC77C875ED49A3E38646AFA9C.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-06-30T19:43:44.759720+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2706",
-      "titulo": "Estabilización de taludes de la carretera Cañada de Moreno - Xichú, 2026",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-076",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-05-21T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260004/LICITACION/PUB_6F45C15FD1A677B445B2D54CD.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-06-30T19:43:44.759967+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2708",
-      "titulo": "ESTABILIZACIÓN DE TALUDES DE LA CARRETERA SANTA CATARINA - ATARJEA, 2026",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-078",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-05-21T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/341520260001/LICITACION/PUB_97775E55494EAD76711B63FD2.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-06-30T19:43:44.760204+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-20T21:52:23.754860+00:00"
+  "ultima_actualizacion": "2026-07-21T07:42:37.598109+00:00"
 }
