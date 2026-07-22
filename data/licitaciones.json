@@ -1,6 +1,173 @@
 {
   "licitaciones": [
     {
+      "ocid": "slp-mpio-LO-EST-245800030-40-2026",
+      "titulo": "LO-EST-245800030-40-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE AEROPUERTO TRAMO DE AV. HERNÁN CORTÉS A CALLE TORMENTA",
+      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE AEROPUERTO TRAMO DE AV. HERNÁN CORTÉS A CALLE TORMENTA, COLONIA LOS REYES/ RESIDENCIAL 1A. SECCIÓN, SAN LUIS POTOSÍ, S.L.P., COORDENADAS 22.168896, -100.992028",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "2026-06-23T00:00:00+00:00",
+      "fecha_limite": "2026-07-24T10:07:00+00:00",
+      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-40-2026/LO-EST-245800030-40-2026_convocatoria.pdf",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.578733+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-41-2026",
+      "titulo": "LO-EST-245800030-41-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE MOCTEZUMA TRAMO DE CALLE AHUÍZOTL A CALLE ITZCÓATL",
+      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE MOCTEZUMA TRAMO DE CALLE AHUÍZOTL A CALLE ITZCÓATL, COLONIA IMPERIO AZTECA, SAN LUIS POTOSÍ, S.L.P., COORDENADAS 22.194768, -100.989196",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "2026-06-23T00:00:00+00:00",
+      "fecha_limite": "2026-07-24T11:07:00+00:00",
+      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-41-2026/LO-EST-245800030-41-2026_convocatoria.pdf",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.578994+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-56-2026",
+      "titulo": "LO-EST-245800030-56-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE TUNA MANZA/ GABILONDO SOLER TRAMO DE AV. TATANACHO A AV. ZENÓN FERNÁNDEZ",
+      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE TUNA MANZA/ GABILONDO SOLER TRAMO DE AV. TATANACHO A AV. ZENÓN FERNÁNDEZ, COLONIA JARDINES DEL ESTADIO, SAN LUIS POTOSI, S.L.P., COORDENADAS 294626.49 m E; 2449868.62 m N",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "2026-07-20T00:00:00+00:00",
+      "fecha_limite": "2026-08-19T09:08:00+00:00",
+      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-56-2026/LO-EST-245800030-56-2026_convocatoria.pdf",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.579628+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-42-2026",
+      "titulo": "LO-EST-245800030-42-2026 — AMPLIACIÓN DE RED DE AGUA POTABLE EN CALLES DE LA COMUNIDAD LA MELADA",
+      "descripcion": "AMPLIACIÓN DE RED DE AGUA POTABLE EN CALLES DE LA COMUNIDAD LA MELADA, DELEGACION MUNICIPAL DE BOCAS, SAN LUIS POTOSI, S.L.P., COORDENADAS 22.474426, -100.969456",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "2026-06-23T00:00:00+00:00",
+      "fecha_limite": "2026-07-24T12:07:00+00:00",
+      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-42-2026/LO-EST-245800030-42-2026_convocatoria.pdf",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "medidores_agua",
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.580162+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-63-2026",
+      "titulo": "LO-EST-245800030-63-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE MANUEL JOSÉ OTHÓN TRAMO DE CALLE LADO ORIENTE JUAN SARABIA A CALLE CUARTA",
+      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE MANUEL JOSÉ OTHÓN TRAMO DE CALLE LADO ORIENTE JUAN SARABIA A CALLE CUARTA, COLONIA EL MONTECILLO, SAN LUIS POTOSI, S.L.P., COORDENADAS 297151.98 m E; 2451173.23 m N",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "2026-07-20T00:00:00+00:00",
+      "fecha_limite": "2026-08-19T12:08:00+00:00",
+      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-63-2026/LO-EST-245800030-63-2026_convocatoria.pdf",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.580808+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-64-2026",
+      "titulo": "LO-EST-245800030-64-2026 — REHABILITACIÓN DE PAVIMENTO CON CARPETA ASFÁLTICA DE CALLE ORO TRAMO DE BLVD. RIO SANTIAGO A CALLE LÓPEZ HERMOSA",
+      "descripcion": "REHABILITACIÓN DE PAVIMENTO CON CARPETA ASFÁLTICA DE CALLE ORO TRAMO DE BLVD. RIO SANTIAGO A CALLE LÓPEZ HERMOSA, COLONIA MORALES, SAN LUIS POTOSI, S.L.P., COORDENADAS 22.158978, -101.021850",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "2026-07-20T00:00:00+00:00",
+      "fecha_limite": "2026-08-19T01:08:00+00:00",
+      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-64-2026/LO-EST-245800030-64-2026_convocatoria.pdf",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.581107+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-65-2026",
+      "titulo": "LO-EST-245800030-65-2026 — REHABILITACIÓN DE PAVIMENTO CON CARPETA ASFÁLTICA DE CALLE SIMÓN DE LA CRUZ Y LEYVA TRAMO DE CARR. A GUADALAJARA A CALLE VICENTE GUERRERO",
+      "descripcion": "REHABILITACIÓN DE PAVIMENTO CON CARPETA ASFÁLTICA DE CALLE SIMÓN DE LA CRUZ Y LEYVA TRAMO DE CARR. A GUADALAJARA A CALLE VICENTE GUERRERO, LOCALIDAD DE ESCALERILLAS, SAN LUIS POTOSI, S.L.P., COORDENADAS 22.108970, -101.075425",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "2026-07-20T00:00:00+00:00",
+      "fecha_limite": "2026-08-19T02:08:00+00:00",
+      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-65-2026/LO-EST-245800030-65-2026_convocatoria.pdf",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.581422+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-11-2022",
+      "titulo": "LO-EST-245800030-11-2022 — REHABILITACION DE RED DE AGUA POTABLE, RED DE DRENAJE SANITARIO Y REVESTIMIENTO CON CARPETA ASFALTICA DE CALLE SOL",
+      "descripcion": "REHABILITACION DE RED DE AGUA POTABLE, RED DE DRENAJE SANITARIO Y REVESTIMIENTO CON CARPETA ASFALTICA DE CALLE SOL TRAMO DE CALLE VIRGO A CALLE PISCIS, COLONIA CAPRICORNIO, SAN LUIS POTOSI, S.L.P., COORDENADAS 298495.53 m E, 2450126.38 m N",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "medidores_agua",
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.615224+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-245800030-29-2024",
+      "titulo": "LO-245800030-29-2024 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE BENITO JUÁREZ TRAMO DE CALLE PELÍCANO A PROL. MUÑOZ",
+      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE BENITO JUÁREZ TRAMO DE CALLE PELÍCANO A PROL. MUÑOZ, COLONIA HACIENDA DE JACARANDAS, SAN LUIS POTOSI, S.L.P., COORDENADAS 291798.13 m E; 2454099.71 m N",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.616127+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-65-2024",
+      "titulo": "LO-EST-245800030-65-2024 — PAVIMENTACIÓN CON CARPETA ASFALTICA DE CALLE LOMA REAL / VIRREYNA TRAMO DE CALZADA DE GUADALUPE A AV. DE LAS TORRES",
+      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFALTICA DE CALLE LOMA REAL / VIRREYNA TRAMO DE CALZADA DE GUADALUPE A AV. DE LAS TORRES, COLONIA SATELITE FRANCISCO I. MADERO/ BELLAS LOMAS, SAN LUIS POTOSI, S.L.P.",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.616381+00:00"
+    },
+    {
+      "ocid": "slp-mpio-LO-EST-245800030-21-2025",
+      "titulo": "LO-EST-245800030-21-2025 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE FRANCISCO I. MADERO TRAMO DE CALLE AZTECA A CALLE ALDAMA",
+      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE FRANCISCO I. MADERO TRAMO DE CALLE AZTECA A CALLE ALDAMA, DELEGACION MUNICIPAL LA PILA, SAN LUIS POTOSÍ, S.L.P., COORDENADAS 306637.92 m E; 2437718.42 m N",
+      "comprador": "Municipio de San Luis Potosí",
+      "ubicacion": "San Luis Potosí",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-07-22T22:19:03.616623+00:00"
+    },
+    {
       "ocid": "qro-mpio-LPM-SOPM-004-23",
       "titulo": "LPM/SOPM/004/23 — RENOVACIÓN Y COMPLEMENTO DE ALUMBRADO PÚBLICO. (CUARTA ETAPA)",
       "descripcion": "RENOVACIÓN Y COMPLEMENTO DE ALUMBRADO PÚBLICO. (CUARTA ETAPA)",
@@ -631,5 +798,5 @@
       "detectado_en": "2026-06-30T19:43:44.759485+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-22T20:20:59.510886+00:00"
+  "ultima_actualizacion": "2026-07-22T22:19:03.617107+00:00"
 }
