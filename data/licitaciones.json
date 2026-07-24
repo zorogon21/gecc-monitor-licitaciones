@@ -1,36 +1,6 @@
 {
   "licitaciones": [
     {
-      "ocid": "slp-mpio-LO-EST-245800030-40-2026",
-      "titulo": "LO-EST-245800030-40-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE AEROPUERTO TRAMO DE AV. HERNÁN CORTÉS A CALLE TORMENTA",
-      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE AEROPUERTO TRAMO DE AV. HERNÁN CORTÉS A CALLE TORMENTA, COLONIA LOS REYES/ RESIDENCIAL 1A. SECCIÓN, SAN LUIS POTOSÍ, S.L.P., COORDENADAS 22.168896, -100.992028",
-      "comprador": "Municipio de San Luis Potosí",
-      "ubicacion": "San Luis Potosí",
-      "fecha_publicacion": "2026-06-23T00:00:00+00:00",
-      "fecha_limite": "2026-07-24T10:07:00+00:00",
-      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-40-2026/LO-EST-245800030-40-2026_convocatoria.pdf",
-      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-22T22:19:03.578733+00:00"
-    },
-    {
-      "ocid": "slp-mpio-LO-EST-245800030-41-2026",
-      "titulo": "LO-EST-245800030-41-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE MOCTEZUMA TRAMO DE CALLE AHUÍZOTL A CALLE ITZCÓATL",
-      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE MOCTEZUMA TRAMO DE CALLE AHUÍZOTL A CALLE ITZCÓATL, COLONIA IMPERIO AZTECA, SAN LUIS POTOSÍ, S.L.P., COORDENADAS 22.194768, -100.989196",
-      "comprador": "Municipio de San Luis Potosí",
-      "ubicacion": "San Luis Potosí",
-      "fecha_publicacion": "2026-06-23T00:00:00+00:00",
-      "fecha_limite": "2026-07-24T11:07:00+00:00",
-      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-41-2026/LO-EST-245800030-41-2026_convocatoria.pdf",
-      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-22T22:19:03.578994+00:00"
-    },
-    {
       "ocid": "slp-mpio-LO-EST-245800030-56-2026",
       "titulo": "LO-EST-245800030-56-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE TUNA MANZA/ GABILONDO SOLER TRAMO DE AV. TATANACHO A AV. ZENÓN FERNÁNDEZ",
       "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE TUNA MANZA/ GABILONDO SOLER TRAMO DE AV. TATANACHO A AV. ZENÓN FERNÁNDEZ, COLONIA JARDINES DEL ESTADIO, SAN LUIS POTOSI, S.L.P., COORDENADAS 294626.49 m E; 2449868.62 m N",
@@ -44,22 +14,6 @@
         "construccion_obra"
       ],
       "detectado_en": "2026-07-22T22:19:03.579628+00:00"
-    },
-    {
-      "ocid": "slp-mpio-LO-EST-245800030-42-2026",
-      "titulo": "LO-EST-245800030-42-2026 — AMPLIACIÓN DE RED DE AGUA POTABLE EN CALLES DE LA COMUNIDAD LA MELADA",
-      "descripcion": "AMPLIACIÓN DE RED DE AGUA POTABLE EN CALLES DE LA COMUNIDAD LA MELADA, DELEGACION MUNICIPAL DE BOCAS, SAN LUIS POTOSI, S.L.P., COORDENADAS 22.474426, -100.969456",
-      "comprador": "Municipio de San Luis Potosí",
-      "ubicacion": "San Luis Potosí",
-      "fecha_publicacion": "2026-06-23T00:00:00+00:00",
-      "fecha_limite": "2026-07-24T12:07:00+00:00",
-      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-42-2026/LO-EST-245800030-42-2026_convocatoria.pdf",
-      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
-      "categorias": [
-        "medidores_agua",
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-22T22:19:03.580162+00:00"
     },
     {
       "ocid": "slp-mpio-LO-EST-245800030-63-2026",
@@ -798,5 +752,5 @@
       "detectado_en": "2026-06-30T19:43:44.759485+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-24T09:13:53.976116+00:00"
+  "ultima_actualizacion": "2026-07-24T15:19:01.154572+00:00"
 }
