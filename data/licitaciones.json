@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "salamanca-075186703aea",
+      "titulo": "CONVOCATORIA ADQUISICIÓN SEGUNDA DE LUMINARIAS LED SMD 100W PARA EL MUNICIPIO DE SALAMANCA, GUANAJUATO",
+      "descripcion": "Reglamento de Contrataciones Poblicas para el Municipio de Salamanca, Guanajuato, convoca a los interesados a participar...",
+      "comprador": "Municipio de Salamanca, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "",
+      "fecha_limite": "",
+      "link": "https://gaceta.salamanca.gob.mx/documents/licitaciones/b553f250-5a2c-4c4e-90fa-89a40bfae064.pdf",
+      "fuente": "Licitaciones — Municipio de Salamanca",
+      "categorias": [
+        "alumbrado_luminarias"
+      ],
+      "detectado_en": "2026-07-29T15:33:59.935276+00:00"
+    },
+    {
       "ocid": "slp-mpio-LO-EST-245800030-56-2026",
       "titulo": "LO-EST-245800030-56-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE TUNA MANZA/ GABILONDO SOLER TRAMO DE AV. TATANACHO A AV. ZENÓN FERNÁNDEZ",
       "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE TUNA MANZA/ GABILONDO SOLER TRAMO DE AV. TATANACHO A AV. ZENÓN FERNÁNDEZ, COLONIA JARDINES DEL ESTADIO, SAN LUIS POTOSI, S.L.P., COORDENADAS 294626.49 m E; 2449868.62 m N",
@@ -587,5 +602,5 @@
       "detectado_en": "2026-06-30T19:43:44.756803+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-07-29T08:04:47.632266+00:00"
+  "ultima_actualizacion": "2026-07-29T15:34:32.976264+00:00"
 }
