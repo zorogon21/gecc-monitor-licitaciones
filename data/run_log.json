@@ -1,35 +1,5 @@
 [
   {
-    "timestamp": "2026-07-26T20:16:05.848921+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 2 (federal): HTTP Error 503: Service Unavailable"
-  },
-  {
-    "timestamp": "2026-07-26T20:16:07.030903+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 3 (federal): HTTP Error 503: Service Unavailable"
-  },
-  {
-    "timestamp": "2026-07-26T20:16:38.635193+00:00",
-    "nivel": "error",
-    "mensaje": "Error al consultar el portal de León (parcial: 0 obtenidas antes del error): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-07-26T20:17:25.710741+00:00",
-    "nivel": "info",
-    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 745 Guanajuato estatal, 0 León, 4 Celaya, 0 Apaseo el Grande, 0 Salamanca, 6 Guanajuato capital, 1 Uriangato, 1 Irapuato, 2 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 101 San Luis Potosí capital. Vencidas podadas: 862."
-  },
-  {
-    "timestamp": "2026-07-27T10:55:03.489970+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 1 (federal): HTTP Error 503: Service Unavailable"
-  },
-  {
-    "timestamp": "2026-07-27T10:55:04.636245+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 2 (federal): HTTP Error 503: Service Unavailable"
-  },
-  {
     "timestamp": "2026-07-27T10:55:05.843356+00:00",
     "nivel": "error",
     "mensaje": "Error al descargar página 3 (federal): HTTP Error 503: Service Unavailable"
@@ -998,5 +968,35 @@
     "timestamp": "2026-08-02T13:29:00.161972+00:00",
     "nivel": "info",
     "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 757 Guanajuato estatal, 0 León, 4 Celaya, 1 Apaseo el Grande, 0 Salamanca, 5 Guanajuato capital, 0 Uriangato, 1 Irapuato, 2 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 101 San Luis Potosí capital. Vencidas podadas: 873."
+  },
+  {
+    "timestamp": "2026-08-02T15:04:31.717684+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 1 (federal): HTTP Error 503: Service Unavailable"
+  },
+  {
+    "timestamp": "2026-08-02T15:04:32.754351+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 2 (federal): HTTP Error 503: Service Unavailable"
+  },
+  {
+    "timestamp": "2026-08-02T15:04:33.844292+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 3 (federal): HTTP Error 503: Service Unavailable"
+  },
+  {
+    "timestamp": "2026-08-02T15:05:05.321249+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de León (parcial: 0 obtenidas antes del error): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-08-02T15:06:18.455331+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de Irapuato: <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-08-02T15:06:26.355972+00:00",
+    "nivel": "info",
+    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 757 Guanajuato estatal, 0 León, 4 Celaya, 1 Apaseo el Grande, 0 Salamanca, 4 Guanajuato capital, 1 Uriangato, 0 Irapuato, 2 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 101 San Luis Potosí capital. Vencidas podadas: 872."
   }
 ]
