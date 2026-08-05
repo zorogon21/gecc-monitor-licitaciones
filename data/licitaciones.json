@@ -1,6 +1,36 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2738",
+      "titulo": "Instalación de módulos de estacionamiento para bicicletas en edificios públicos, 2026, paquete 4",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/OP/2026-112",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-04T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-05T17:41:44.582307+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2739",
+      "titulo": "Construcción de 1 aula, adecuación de dirección, sustitución de cancha y techado, más rehabilitación y mantenimiento en la Primaria Venustiano Carranza con C.C.T. 11DPR3945K, ubicada en el municipio de Apaseo el Grande, Gto.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/SEG/2026-117",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-04T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-05T17:41:44.582584+00:00"
+    },
+    {
       "ocid": "salamanca-075186703aea",
       "titulo": "CONVOCATORIA ADQUISICIÓN SEGUNDA DE LUMINARIAS LED SMD 100W PARA EL MUNICIPIO DE SALAMANCA, GUANAJUATO",
       "descripcion": "Reglamento de Contrataciones Poblicas para el Municipio de Salamanca, Guanajuato, convoca a los interesados a participar...",
@@ -452,5 +482,5 @@
       "detectado_en": "2026-06-30T19:43:44.755288+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-05T14:16:06.675780+00:00"
+  "ultima_actualizacion": "2026-08-05T17:43:01.549196+00:00"
 }
