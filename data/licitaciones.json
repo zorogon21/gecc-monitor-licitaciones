@@ -1,6 +1,51 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2747",
+      "titulo": "Demarcación Horizontal y Desyerbe de la Red Estatal de Caminos Pavimentados Zona Celaya 2, 2026",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-093",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-04T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260062/LICITACION/PUB_1CFF59FD646FEBCE86203E18A.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-10T16:55:41.988516+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2748",
+      "titulo": "Demarcación Horizontal y Desyerbe de la Red Estatal de Caminos Pavimentados Zona Dolores Hidalgo 1, 2026",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-096",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-04T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260065/LICITACION/PUB_821363E434532213228185188.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-10T16:55:41.988811+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2749",
+      "titulo": "Demarcación Horizontal y Desyerbe de la Red Estatal de Caminos Pavimentados Zona  Guanajuato 2, 2026",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-100",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-04T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260069/LICITACION/PUB_5C2A1EFA694FCEE9CC9636948.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-10T16:55:41.989057+00:00"
+    },
+    {
       "ocid": "gto-estatal-2740",
       "titulo": "Demarcación Horizontal y Desyerbe de la Red Estatal de Caminos Pavimentados Zona Celaya 1, 2026",
       "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-092",
@@ -542,5 +587,5 @@
       "detectado_en": "2026-06-30T19:43:44.754786+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-10T15:02:27.227125+00:00"
+  "ultima_actualizacion": "2026-08-10T16:57:37.317428+00:00"
 }
