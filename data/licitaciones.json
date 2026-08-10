@@ -540,37 +540,7 @@
         "construccion_obra"
       ],
       "detectado_en": "2026-06-30T19:43:44.754786+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2723",
-      "titulo": "Conservación Periódica de la carretera Ramal a Santiago Maravatío y El Dormido, 2026",
-      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/IV/OB/OP/2026-066",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-06-10T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/361520260001/LICITACION/PUB_B5F831AB2F0916F48F5C178D2.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-06-30T19:43:44.755038+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2724",
-      "titulo": "Mantenimiento a Varias Estructuras dentro del complejo Guanajuato Puerto Interior, 2026",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/GPI/2026-081",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-06-10T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/375720260002/LICITACION/PUB_9DC0D95DC22032AFA62407BEF.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-06-30T19:43:44.755288+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-10T05:36:43.145343+00:00"
+  "ultima_actualizacion": "2026-08-10T07:47:29.616914+00:00"
 }
