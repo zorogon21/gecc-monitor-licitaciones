@@ -1,6 +1,36 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2765",
+      "titulo": "Demarcación Horizontal y Desyerbe de la Red Estatal de Caminos Pavimentados Zona León 3, 2026",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-105",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-06T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260074/LICITACION/PUB_98DE211AD270C1709F8127572.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-11T19:06:28.841808+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2764",
+      "titulo": "Conservación de cruces peatonales a nivel en la Red Estatal de Carreteras Pavimentadas. 2026",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-121",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-06T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260021/LICITACION/BAS_E6B06B8B1C561D7F81B95CDB7.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-11T19:06:28.842136+00:00"
+    },
+    {
       "ocid": "gto-estatal-2760",
       "titulo": "Construcción de techado de cancha, barda perimetral más obra complementarias en la Telesecundaria núm. 10 con C.C.T. 11ETV0039M, ubicada en el municipio de León, Gto.",
       "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/SEG/2026-118",
@@ -782,5 +812,5 @@
       "detectado_en": "2026-06-30T19:43:44.754786+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-11T17:02:40.757043+00:00"
+  "ultima_actualizacion": "2026-08-11T19:08:00.705589+00:00"
 }
