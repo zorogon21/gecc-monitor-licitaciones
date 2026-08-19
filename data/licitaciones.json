@@ -436,21 +436,6 @@
       "detectado_en": "2026-07-29T15:33:59.935276+00:00"
     },
     {
-      "ocid": "slp-mpio-LO-EST-245800030-63-2026",
-      "titulo": "LO-EST-245800030-63-2026 — PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE MANUEL JOSÉ OTHÓN TRAMO DE CALLE LADO ORIENTE JUAN SARABIA A CALLE CUARTA",
-      "descripcion": "PAVIMENTACIÓN CON CARPETA ASFÁLTICA DE CALLE MANUEL JOSÉ OTHÓN TRAMO DE CALLE LADO ORIENTE JUAN SARABIA A CALLE CUARTA, COLONIA EL MONTECILLO, SAN LUIS POTOSI, S.L.P., COORDENADAS 297151.98 m E; 2451173.23 m N",
-      "comprador": "Municipio de San Luis Potosí",
-      "ubicacion": "San Luis Potosí",
-      "fecha_publicacion": "2026-07-20T00:00:00+00:00",
-      "fecha_limite": "2026-08-19T12:08:00+00:00",
-      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/LO-EST-245800030-63-2026/LO-EST-245800030-63-2026_convocatoria.pdf",
-      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-22T22:19:03.580808+00:00"
-    },
-    {
       "ocid": "slp-mpio-LO-EST-245800030-11-2022",
       "titulo": "LO-EST-245800030-11-2022 — REHABILITACION DE RED DE AGUA POTABLE, RED DE DRENAJE SANITARIO Y REVESTIMIENTO CON CARPETA ASFALTICA DE CALLE SOL",
       "descripcion": "REHABILITACION DE RED DE AGUA POTABLE, RED DE DRENAJE SANITARIO Y REVESTIMIENTO CON CARPETA ASFALTICA DE CALLE SOL TRAMO DE CALLE VIRGO A CALLE PISCIS, COLONIA CAPRICORNIO, SAN LUIS POTOSI, S.L.P., COORDENADAS 298495.53 m E, 2450126.38 m N",
@@ -737,5 +722,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-19T10:33:51.586611+00:00"
+  "ultima_actualizacion": "2026-08-19T12:54:35.058666+00:00"
 }
