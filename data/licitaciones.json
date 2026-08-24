@@ -1,6 +1,36 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2766",
+      "titulo": "Construcción de barda perimetral, techado de cancha y sustitución de cancha, más obra complementaria en la Primaria José Vasconcelos con C.C.T. 11DPR3231O, ubicada en el municipio de León, Gto.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/SEG/2026-136",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-21T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-24T18:44:38.039024+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2767",
+      "titulo": "Construcción de techado de cancha, barda perimetral, servicio sanitario más rehabilitación y mantenimiento, incluye obra complementaria en la Primaria Justo Sierra con C.C.T. 11EPR0830O, ubicada en el municipio de León, Gto.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/SEG/2026-137",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-21T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-24T18:44:38.039251+00:00"
+    },
+    {
       "ocid": "gto-estatal-2765",
       "titulo": "Demarcación Horizontal y Desyerbe de la Red Estatal de Caminos Pavimentados Zona León 3, 2026",
       "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-105",
@@ -707,5 +737,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-24T16:42:23.223760+00:00"
+  "ultima_actualizacion": "2026-08-24T18:45:41.602681+00:00"
 }
