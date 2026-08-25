@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2768",
+      "titulo": "Construcción de barda perimetral, techado de cancha, comedor, sustitución de cancha, rehabilitación y mantenimiento más obra complementaria en la Primaria Benito Juárez con C.C.T. 11DPR0459Y, ubicada en el municipio de Valle de Santiago, Gto.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/SEG/2026-138",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-24T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-08-25T18:43:35.428429+00:00"
+    },
+    {
       "ocid": "gto-estatal-2766",
       "titulo": "Construcción de barda perimetral, techado de cancha y sustitución de cancha, más obra complementaria en la Primaria José Vasconcelos con C.C.T. 11DPR3231O, ubicada en el municipio de León, Gto.",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/SEG/2026-136",
@@ -737,5 +752,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-25T16:42:21.528386+00:00"
+  "ultima_actualizacion": "2026-08-25T18:44:41.116982+00:00"
 }
