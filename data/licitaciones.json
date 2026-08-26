@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "sanpedro-SAIA-DA-CL-50-2026",
+      "titulo": "Suministro, colocación y stock de luminarias para diversas Colonias del Municipio N° SAIA-DA-CL-50/2026",
+      "descripcion": "LICITACIÓN PÚBLICA NACIONAL PRESENCIAL Suministro, colocación y stock de luminarias para diversas Colonias del Municipio, de acuerdo a las especificaciones y características contenidas en los anexos técnicos de las bases de esta licitación.",
+      "comprador": "SEC DE SERV PUB Y MEDIO AMBIENTE - OF. DEL SRIO. DE SERV. PUBLICO",
+      "ubicacion": "Nuevo León",
+      "fecha_publicacion": "2026-08-26T00:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://licitaciones.sanpedro.gob.mx/Doc/9df39aba-de60-419c-8d22-224f11646c2a.pdf",
+      "fuente": "Licitaciones — Municipio de San Pedro Garza García",
+      "categorias": [
+        "alumbrado_luminarias"
+      ],
+      "detectado_en": "2026-08-26T16:52:37.755081+00:00"
+    },
+    {
       "ocid": "gto-estatal-2768",
       "titulo": "Construcción de barda perimetral, techado de cancha, comedor, sustitución de cancha, rehabilitación y mantenimiento más obra complementaria en la Primaria Benito Juárez con C.C.T. 11DPR0459Y, ubicada en el municipio de Valle de Santiago, Gto.",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/SEG/2026-138",
@@ -752,5 +767,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-26T14:51:04.001717+00:00"
+  "ultima_actualizacion": "2026-08-26T16:52:43.490997+00:00"
 }
