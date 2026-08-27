@@ -136,21 +136,6 @@
       "detectado_en": "2026-08-11T17:00:18.120904+00:00"
     },
     {
-      "ocid": "slp-mpio-PC-O-EST-245800030-91-2026",
-      "titulo": "PC-O-EST-245800030-91-2026 — REHABILITACION DE CALLES EN ZONA INDUSTRIAL (BACHEO) EJES 110, 124, 128, 130, 132, 134 Y AV. CFE, SAN LUIS POTOSI.",
-      "descripcion": "REHABILITACION DE CALLES EN ZONA INDUSTRIAL (BACHEO) EJES 110, 124, 128, 130, 132, 134 Y AV. CFE, SAN LUIS POTOSI. S.L.P., COORDENADAS 22.119042, -100.909692; 22.095243, -100.890400; 22.083103, -100.879989; 22.079207, -100.877228; 22.072987, -100.878744; 22.068238, -100.876200; 22.083839, -100.890887",
-      "comprador": "Municipio de San Luis Potosí",
-      "ubicacion": "San Luis Potosí",
-      "fecha_publicacion": "2026-08-10T00:00:00+00:00",
-      "fecha_limite": "2026-08-27T12:08:00+00:00",
-      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/PC-O-EST-245800030-91-2026/PC-O-EST-245800030-91-2026_convocatoria.pdf",
-      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-08-11T01:58:05.028556+00:00"
-    },
-    {
       "ocid": "gto-estatal-2753",
       "titulo": "Modernización de la Carretera Federal 51, tramo San Miguel de Allende - Dolores Hidalgo C.I.N., segunda etapa",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-110",
@@ -767,5 +752,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-27T08:16:34.507673+00:00"
+  "ultima_actualizacion": "2026-08-27T20:14:29.255233+00:00"
 }
