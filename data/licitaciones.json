@@ -1,21 +1,6 @@
 {
   "licitaciones": [
     {
-      "ocid": "slp-mpio-PC-O-EST-245800030-91-2026",
-      "titulo": "PC-O-EST-245800030-91-2026 — REHABILITACION DE CALLES EN ZONA INDUSTRIAL (BACHEO) EJES 110, 124, 128, 130, 132, 134 Y AV. CFE, SAN LUIS POTOSI.",
-      "descripcion": "REHABILITACION DE CALLES EN ZONA INDUSTRIAL (BACHEO) EJES 110, 124, 128, 130, 132, 134 Y AV. CFE, SAN LUIS POTOSI. S.L.P., COORDENADAS 22.119042, -100.909692; 22.095243, -100.890400; 22.083103, -100.879989; 22.079207, -100.877228; 22.072987, -100.878744; 22.068238, -100.876200; 22.083839, -100.890887",
-      "comprador": "Municipio de San Luis Potosí",
-      "ubicacion": "San Luis Potosí",
-      "fecha_publicacion": "2026-08-10T00:00:00+00:00",
-      "fecha_limite": "2026-08-28T11:08:00+00:00",
-      "link": "https://sitio.sanluis.gob.mx/pagAyuntamientoCMS/storage/Licitaciones/PC-O-EST-245800030-91-2026/PC-O-EST-245800030-91-2026_convocatoria.pdf",
-      "fuente": "Licitaciones Públicas — Municipio de San Luis Potosí",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-08-28T06:02:56.702496+00:00"
-    },
-    {
       "ocid": "sanpedro-SAIA-DA-CL-50-2026",
       "titulo": "Suministro, colocación y stock de luminarias para diversas Colonias del Municipio N° SAIA-DA-CL-50/2026",
       "descripcion": "LICITACIÓN PÚBLICA NACIONAL PRESENCIAL Suministro, colocación y stock de luminarias para diversas Colonias del Municipio, de acuerdo a las especificaciones y características contenidas en los anexos técnicos de las bases de esta licitación.",
@@ -767,5 +752,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-08-28T06:02:56.738833+00:00"
+  "ultima_actualizacion": "2026-08-28T18:37:03.471242+00:00"
 }
