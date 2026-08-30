@@ -1,35 +1,5 @@
 [
   {
-    "timestamp": "2026-08-25T06:56:00.617811+00:00",
-    "nivel": "error",
-    "mensaje": "Error al consultar el portal de Irapuato: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-  },
-  {
-    "timestamp": "2026-08-25T06:56:09.376511+00:00",
-    "nivel": "info",
-    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 762 Guanajuato estatal, 0 León, 6 Celaya, 1 Apaseo el Grande, 0 Salamanca, 5 Guanajuato capital, 0 Uriangato, 0 Irapuato, 4 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 105 San Luis Potosí capital. Vencidas podadas: 885."
-  },
-  {
-    "timestamp": "2026-08-25T08:46:05.163721+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-08-25T08:46:35.259551+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 2 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-08-25T08:47:05.344681+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 3 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-08-25T08:47:36.989343+00:00",
-    "nivel": "error",
-    "mensaje": "Error al consultar el portal de León (parcial: 0 obtenidas antes del error): <urlopen error timed out>"
-  },
-  {
     "timestamp": "2026-08-25T08:48:18.216090+00:00",
     "nivel": "error",
     "mensaje": "Error al consultar el portal de Irapuato: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
@@ -996,6 +966,36 @@
   },
   {
     "timestamp": "2026-08-30T16:20:43.103827+00:00",
+    "nivel": "info",
+    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 763 Guanajuato estatal, 0 León, 6 Celaya, 1 Apaseo el Grande, 0 Salamanca, 6 Guanajuato capital, 1 Uriangato, 0 Irapuato, 4 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 889."
+  },
+  {
+    "timestamp": "2026-08-30T20:45:14.072635+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-08-30T20:45:44.112211+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 2 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-08-30T20:46:14.209519+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 3 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-08-30T20:46:31.002519+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de León (parcial: 0 obtenidas antes del error): <urlopen error [Errno 111] Connection refused>"
+  },
+  {
+    "timestamp": "2026-08-30T20:47:08.171644+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de Irapuato: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "timestamp": "2026-08-30T20:47:16.182961+00:00",
     "nivel": "info",
     "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 763 Guanajuato estatal, 0 León, 6 Celaya, 1 Apaseo el Grande, 0 Salamanca, 6 Guanajuato capital, 1 Uriangato, 0 Irapuato, 4 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 889."
   }
