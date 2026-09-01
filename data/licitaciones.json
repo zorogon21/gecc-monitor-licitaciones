@@ -677,36 +677,6 @@
       "detectado_en": "2026-07-13T18:16:09.017110+00:00"
     },
     {
-      "ocid": "gto-estatal-2728",
-      "titulo": "Atención de puntos conflictivos en la Red de Carreteras Estatales, Coordinación Guanajuato, 2026",
-      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/IV/OB/OP/2026-086",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-07-02T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260059/LICITACION/PUB_670590E5F42D940F8A204391E.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-03T21:47:04.443262+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2729",
-      "titulo": "Atención de puntos conflictivos en la Red de Carreteras Estatales, Coordinación León, 2026",
-      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/IV/OB/OP/2026-087",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-07-02T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260060/LICITACION/PUB_22B8E22B81A0A679EEF168F57.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-03T21:47:04.443521+00:00"
-    },
-    {
       "ocid": "gtocap-14695",
       "titulo": "ACTA DE PRESENTACIÓN Y APERTURA DE OFERTAS DE LA LICITACIÓN RESTRINGIDA NO. LR/DAySG-005/2023 CORRESPONDIENTE AL  «ARRENDAMIENTO DE MAQUINARIA DEL PROGRAMA DE DESARROLLO TERRITORIAL SUSTENTABLE A TRAVÉS DEL FIDEICOMISO DE BORDARÍA E INFRAESTRUCTURA RURAL PARA EL ESTADO DE GUANAJUATO FIBIR 2023»",
       "descripcion": "",
@@ -737,5 +707,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-01T04:15:17.377543+00:00"
+  "ultima_actualizacion": "2026-09-01T11:21:31.909298+00:00"
 }
