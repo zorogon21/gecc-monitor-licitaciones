@@ -1,6 +1,51 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2776",
+      "titulo": "Proyecto integral para construcción de bardeado perimetral del Centro de Desarrollo Comunitario para personas mayores y sus familias de Apaseo el Alto, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-124",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-25T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/42520260001/LICITACION/PUB_9BA513A738E3836A6F05BA900.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T22:28:11.757889+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2777",
+      "titulo": "Proyecto integral para rehabilitación de cancha de cachibol en el Centro de Desarrollo Comunitario para personas mayores y sus familias de Doctor Mora, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-128",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-25T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/132520260001/LICITACION/PUB_667444F0B5A93B58CD6ABCFB0.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T22:28:11.758174+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2778",
+      "titulo": "Proyecto integral para construcción de techado en el Centro de Desarrollo Comunitario para personas mayores y sus familias de San Francisco Del Rincón, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-133",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-25T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/312520260001/LICITACION/PUB_5FBFDBF70DBEB0A0F98425E02.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T22:28:11.758475+00:00"
+    },
+    {
       "ocid": "gto-estatal-2770",
       "titulo": "Proyecto integral para construcción de bardeado perimetral del Centro de Desarrollo Comunitario para personas mayores y sus familias de Uriangato, Gto.",
       "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-126",
@@ -797,5 +842,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-02T19:19:24.802316+00:00"
+  "ultima_actualizacion": "2026-09-02T22:30:09.763446+00:00"
 }
