@@ -1,6 +1,96 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2770",
+      "titulo": "Proyecto integral para construcción de bardeado perimetral del Centro de Desarrollo Comunitario para personas mayores y sus familias de Uriangato, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-126",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-27T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/412520260001/LICITACION/PUB_C5ACA581FEBF657EC9A15EE80.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T19:17:57.814997+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2774",
+      "titulo": "Proyecto integral para rehabilitación de cancha de cachibol y obras complementarias en el Centro de Desarrollo Comunitario para personas mayores y sus Familias de Comonfort, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-129",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-27T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/92520260001/LICITACION/PUB_B7F1F89639679D5F7AFFE2985.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T19:17:57.815270+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2773",
+      "titulo": "Proyecto integral para construcción de cancha techada de cachibol en el Centro de Desarrollo Comunitario para personas mayores y sus familias de Santiago Maravatío, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-131",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-27T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/362520260001/LICITACION/PUB_AA9E3013BECEF8F3FC9790C41.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T19:17:57.815529+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2771",
+      "titulo": "Proyecto integral para construcción de salón de usos múltiples en el Centro de Desarrollo Comunitario para personas mayores y sus Familias de Salamanca, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-132",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-27T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/272520260001/LICITACION/PUB_4FBCC13466C036CD56EA276D9.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T19:17:57.815801+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2772",
+      "titulo": "Proyecto integral para construcción de módulo sanitario con vestidores en el Centro de Desarrollo Comunitario para personas mayores y sus familias de Celaya, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-134",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-27T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/72520260001/LICITACION/PUB_A476051FCE5DDD01F8AC63C96.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T19:17:57.816055+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2769",
+      "titulo": "Proyecto integral para rehabilitación de cancha de cachibol en el Centro de Desarrollo Comunitario para personas mayores y sus Familias de Yuriria, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-135",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-08-27T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/462520260001/LICITACION/PUB_C4B5529708C54440FDAA535D5.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-02T19:17:57.816306+00:00"
+    },
+    {
       "ocid": "sanpedro-SAIA-DA-CL-50-2026",
       "titulo": "Suministro, colocación y stock de luminarias para diversas Colonias del Municipio N° SAIA-DA-CL-50/2026",
       "descripcion": "LICITACIÓN PÚBLICA NACIONAL PRESENCIAL Suministro, colocación y stock de luminarias para diversas Colonias del Municipio, de acuerdo a las especificaciones y características contenidas en los anexos técnicos de las bases de esta licitación.",
@@ -707,5 +797,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-02T14:13:19.592053+00:00"
+  "ultima_actualizacion": "2026-09-02T19:19:24.802316+00:00"
 }
