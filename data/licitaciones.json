@@ -692,51 +692,6 @@
       "detectado_en": "2026-07-15T16:52:40.905096+00:00"
     },
     {
-      "ocid": "gto-estatal-2733",
-      "titulo": "Conservación de la carretera San José de Guanajuato-San Antonio de Morales y construcción de gasas de acceso al Nuevo Complejo del Instituto de Formación en Seguridad Pública del Estado, en el municipio de Celaya.",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/INFOSPE/2026-090",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-07-09T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/77520260002/LICITACION/PUB_49B500951103FC0AB57551BEF.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-13T18:16:09.015259+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2732",
-      "titulo": "Atención de puntos conflictivos en la Red de Carreteras Estatales, Coordinación Celaya, 2026",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-088",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-07-09T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260058/LICITACION/PUB_9B903DC3AA808EA6E6098DFEE.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-13T18:16:09.015543+00:00"
-    },
-    {
-      "ocid": "gto-estatal-2734",
-      "titulo": "Atención de puntos conflictivos en la Red de Carreteras Estatales, Coordinación Dolores Hidalgo, 2026",
-      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-089",
-      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
-      "ubicacion": "Guanajuato",
-      "fecha_publicacion": "2026-07-09T06:00:00+00:00",
-      "fecha_limite": "",
-      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260057/LICITACION/BAS_55058C7BB1F17019D6779EF5C.pdf",
-      "fuente": "Obra Pública del Estado de Guanajuato",
-      "categorias": [
-        "construccion_obra"
-      ],
-      "detectado_en": "2026-07-13T18:16:09.015809+00:00"
-    },
-    {
       "ocid": "gtocap-14695",
       "titulo": "ACTA DE PRESENTACIÓN Y APERTURA DE OFERTAS DE LA LICITACIÓN RESTRINGIDA NO. LR/DAySG-005/2023 CORRESPONDIENTE AL  «ARRENDAMIENTO DE MAQUINARIA DEL PROGRAMA DE DESARROLLO TERRITORIAL SUSTENTABLE A TRAVÉS DEL FIDEICOMISO DE BORDARÍA E INFRAESTRUCTURA RURAL PARA EL ESTADO DE GUANAJUATO FIBIR 2023»",
       "descripcion": "",
@@ -767,5 +722,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-08T03:44:05.125628+00:00"
+  "ultima_actualizacion": "2026-09-08T08:44:41.721318+00:00"
 }
