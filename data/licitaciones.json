@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2781",
+      "titulo": "Construcción del paso superior vehicular sobre la Línea “A” de ferrocarril, en el cruce con la Av. Calzada de Guadalupe, en Irapuato.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-122",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-09-09T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-10T19:01:43.502751+00:00"
+    },
+    {
       "ocid": "gto-estatal-2779",
       "titulo": "Modernización de la Carretera Federal 51, tramo San Miguel de Allende - Dolores Hidalgo C.I.N., segunda etapa",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-139",
@@ -752,5 +767,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-10T14:11:38.444174+00:00"
+  "ultima_actualizacion": "2026-09-10T19:02:59.906391+00:00"
 }
