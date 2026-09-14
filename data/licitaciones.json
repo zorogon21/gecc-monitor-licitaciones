@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2782",
+      "titulo": "Modernización de calle Principal de Tierra Blanca, de calle Gallego a calle Del Patol.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-140",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-09-14T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/401520260002/LICITACION/PUB_C6708A236497876B0ED331E76.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-14T19:06:52.509661+00:00"
+    },
+    {
       "ocid": "gto-estatal-2781",
       "titulo": "Construcción del paso superior vehicular sobre la Línea “A” de ferrocarril, en el cruce con la Av. Calzada de Guadalupe, en Irapuato.",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-122",
@@ -767,5 +782,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-14T12:13:40.214859+00:00"
+  "ultima_actualizacion": "2026-09-14T19:07:56.635719+00:00"
 }
