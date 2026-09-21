@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2786",
+      "titulo": "Construcción de la segunda etapa del centro de verificación vehicular, en Guanajuato Puerto Interior, en el municipio de Silao de la Victoria, Guanajuato",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/GPI/2026-141",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-09-18T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/375720260004/LICITACION/PUB_4BFAB0968BC3B6A7C8BADD026.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-21T19:09:08.133917+00:00"
+    },
+    {
       "ocid": "gto-estatal-2785",
       "titulo": "Proyecto integral para construcción de cancha techada de cachibol y obras complementarias en el Centro de Desarrollo Comunitario para personas mayores y sus familias de Cortázar, Gto.",
       "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/I3/PU/ED/PI/DIF/2026-125",
@@ -827,5 +842,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-21T12:21:55.770096+00:00"
+  "ultima_actualizacion": "2026-09-21T19:10:33.891122+00:00"
 }
