@@ -1,6 +1,36 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2787",
+      "titulo": "Construcción del Bulevar Migrante en el municipio de San Diego de la Unión",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-142",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-09-24T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-25T21:16:31.856784+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2788",
+      "titulo": "Rehabilitación de la carretera San Luis de La Paz – Guanajuato cuerpo sur, tramo: Av. Manuel J. Clouthier al libramiento de San Luis de la Paz y construcción de gasas de acceso.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-143",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-09-24T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-25T21:16:31.857112+00:00"
+    },
+    {
       "ocid": "gto-estatal-2786",
       "titulo": "Construcción de la segunda etapa del centro de verificación vehicular, en Guanajuato Puerto Interior, en el municipio de Silao de la Victoria, Guanajuato",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/GPI/2026-141",
@@ -842,5 +872,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-25T16:52:53.234421+00:00"
+  "ultima_actualizacion": "2026-09-25T21:17:54.482480+00:00"
 }
