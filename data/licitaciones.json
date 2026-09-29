@@ -1,6 +1,51 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2789",
+      "titulo": "Sustitución de la Unidad Médica de Atención Primaria a la Salud (UMAPS) Obrajuelo en Apaseo el Grande",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/ISAPEG/2026-146",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-09-25T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-29T22:02:10.874730+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2790",
+      "titulo": "Sustitución de la Unidad Médica de Atención Primaria a la Salud (UMAPS) San Bartolomé de Aguas Calientes en Apaseo el Alto",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/ISAPEG/2026-147",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-09-25T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-29T22:02:10.875027+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2791",
+      "titulo": "Remodelación del Laboratorio Estatal León sección de Laboratorio de Biología Molecular (Gene-Lab)",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/ISAPEG/2026-148",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-09-25T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-09-29T22:02:10.875296+00:00"
+    },
+    {
       "ocid": "gto-estatal-2787",
       "titulo": "Construcción del Bulevar Migrante en el municipio de San Diego de la Unión",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-142",
@@ -872,5 +917,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-09-29T16:25:35.658944+00:00"
+  "ultima_actualizacion": "2026-09-29T22:03:17.822500+00:00"
 }
