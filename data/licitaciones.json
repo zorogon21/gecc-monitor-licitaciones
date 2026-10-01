@@ -1,6 +1,36 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2793",
+      "titulo": "Rehabilitación y mantenimiento más sustitución de techado de comedor, incluye obra complementaria en el Centro de Estudios Tecnológicos Industrial y de Servicios núm. 77 con C.C.T. 11DCT0011T, ubicado en el municipio de León, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/LP/PU/ED/OB/INFEDU/2026-144",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-10-01T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/208120260005/LICITACION/PUB_541D8E78740571163B348C8A2.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-10-01T23:47:18.904181+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2794",
+      "titulo": "Terminación de la construcción de la infraestructura educativa, en el Colegio de Estudios Científicos y Tecnológicos del Estado de Guanajuato plantel Pueblo Nuevo, con C.C.T. 11ETC0006G, ubicado en la calle Calzada del Panteón s/n, Zona Centro, en el municipio de Pueblo Nuevo, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/LP/PU/ED/OB/INFEDU/2026-145",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-10-01T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/248120260001/LICITACION/PUB_9A23E67F4C7E46CD24BAA1D8A.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-10-01T23:47:18.904497+00:00"
+    },
+    {
       "ocid": "gto-estatal-2789",
       "titulo": "Sustitución de la Unidad Médica de Atención Primaria a la Salud (UMAPS) Obrajuelo en Apaseo el Grande",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/ISAPEG/2026-146",
@@ -917,5 +947,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-10-01T19:22:52.825641+00:00"
+  "ultima_actualizacion": "2026-10-01T23:48:55.456039+00:00"
 }
