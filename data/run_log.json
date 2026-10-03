@@ -1,40 +1,5 @@
 [
   {
-    "timestamp": "2026-09-25T21:17:54.484097+00:00",
-    "nivel": "info",
-    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 775 Guanajuato estatal, 0 León, 6 Celaya, 1 Apaseo el Grande, 0 Salamanca, 5 Guanajuato capital, 1 Uriangato, 0 Irapuato, 4 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 898."
-  },
-  {
-    "timestamp": "2026-09-26T00:25:56.044581+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-09-26T00:26:26.130547+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 2 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-09-26T00:26:56.221461+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 3 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-09-26T00:27:27.261492+00:00",
-    "nivel": "error",
-    "mensaje": "Error al consultar el portal de León (parcial: 0 obtenidas antes del error): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-09-26T00:28:16.627381+00:00",
-    "nivel": "error",
-    "mensaje": "Error al consultar el portal de Irapuato: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-  },
-  {
-    "timestamp": "2026-09-26T00:28:23.862181+00:00",
-    "nivel": "info",
-    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 773 Guanajuato estatal, 0 León, 6 Celaya, 1 Apaseo el Grande, 0 Salamanca, 5 Guanajuato capital, 1 Uriangato, 0 Irapuato, 4 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 898."
-  },
-  {
     "timestamp": "2026-09-26T07:15:04.693612+00:00",
     "nivel": "error",
     "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
@@ -998,5 +963,40 @@
     "timestamp": "2026-10-03T11:20:38.801607+00:00",
     "nivel": "info",
     "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 773 Guanajuato estatal, 0 León, 6 Celaya, 1 Apaseo el Grande, 0 Salamanca, 2 Guanajuato capital, 1 Uriangato, 0 Irapuato, 4 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 902."
+  },
+  {
+    "timestamp": "2026-10-03T15:56:06.221186+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-10-03T15:56:36.307548+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 2 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-10-03T15:57:06.340896+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 3 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-10-03T15:57:38.165822+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de León (parcial: 0 obtenidas antes del error): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-10-03T15:58:19.352468+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de Salamanca: <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-10-03T15:58:51.474441+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de Irapuato: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "timestamp": "2026-10-03T15:58:59.378552+00:00",
+    "nivel": "info",
+    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 780 Guanajuato estatal, 0 León, 6 Celaya, 1 Apaseo el Grande, 0 Salamanca, 7 Guanajuato capital, 1 Uriangato, 0 Irapuato, 4 San Pedro Garza García, 2 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 907."
   }
 ]
