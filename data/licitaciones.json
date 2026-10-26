@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2798",
+      "titulo": "Reconstrucción del Puente Maravillas sobre la carretera Cd. Manuel Doblado – Puerta de San Juan, cruce con el Arroyo Isabelota.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-152",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-10-26T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-10-26T19:48:21.665235+00:00"
+    },
+    {
       "ocid": "slp-mpio-LO-EST-245800030-147-2026",
       "titulo": "LO-EST-245800030-147-2026 — REHABILITACIÓN DE CALLES EN ZONA INDUSTRIAL (BACHEO) EJES 110, 124, 128, 130, 134, Y AVENIDA CFE, SAN LUIS POTOSÍ",
       "descripcion": "REHABILITACIÓN DE CALLES EN ZONA INDUSTRIAL (BACHEO) EJES 110, 124, 128, 130, 134, Y AVENIDA CFE, SAN LUIS POTOSÍ, S.L.P., COORDENADAS 22.119042, -100.909692; 22.095243, -100.890400; 22.083103, -100.879989; 22.079207, -100.877228; 22.072987, -100.878744; 22.068238, -100.876200; 22.083839, -100.890887",
@@ -512,5 +527,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-10-26T12:32:03.445524+00:00"
+  "ultima_actualizacion": "2026-10-26T19:49:34.708306+00:00"
 }
