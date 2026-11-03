@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2799",
+      "titulo": "Construcción del área de Radioterapia en el Hospital General León",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/ISAPEG/2026-155",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-10-30T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-03T19:16:14.812339+00:00"
+    },
+    {
       "ocid": "gto-estatal-2798",
       "titulo": "Reconstrucción del Puente Maravillas sobre la carretera Cd. Manuel Doblado – Puerta de San Juan, cruce con el Arroyo Isabelota.",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PA/IV/OB/OP/2026-152",
@@ -437,5 +452,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-11-03T11:45:33.816512+00:00"
+  "ultima_actualizacion": "2026-11-03T19:17:03.744626+00:00"
 }
