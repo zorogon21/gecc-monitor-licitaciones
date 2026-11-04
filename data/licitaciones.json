@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "celaya-licitacion-de-caracter-publica-nacional-presencial-por-partidas-lpnp-mce-18-2026-adquisicion-de-materiales-electricos-y-electronicos-para-el-mantenimiento-anual-del-alumbrado-publico-del-muni",
+      "titulo": "LICITACIÓN DE CARÁCTER PÚBLICA NACIONAL PRESENCIAL POR PARTIDAS LPNP-MCE-18-2026 “ADQUISICIÓN DE MATERIALES ELÉCTRICOS Y ELECTRÓNICOS PARA EL MANTENIMIENTO ANUAL DEL ALUMBRADO PÚBLICO DEL MUNICIPIO DE CELAYA GTO. PARA EL EJERCICIO 2026”",
+      "descripcion": "",
+      "comprador": "Municipio de Celaya, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-10-29T00:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://www.celaya.gob.mx/consultas/licitacion-de-caracter-publica-nacional-presencial-por-partidas-lpnp-mce-18-2026-adquisicion-de-materiales-electricos-y-electronicos-para-el-mantenimiento-anual-del-alumbrado-publico-del-muni/",
+      "fuente": "Licitaciones y Convocatorias — Presidencia Municipal de Celaya",
+      "categorias": [
+        "alumbrado_luminarias"
+      ],
+      "detectado_en": "2026-11-04T00:29:02.610399+00:00"
+    },
+    {
       "ocid": "gto-estatal-2799",
       "titulo": "Construcción del área de Radioterapia en el Hospital General León",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/ISAPEG/2026-155",
@@ -452,5 +467,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-11-03T19:17:03.744626+00:00"
+  "ultima_actualizacion": "2026-11-04T00:29:44.741534+00:00"
 }
