@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2800",
+      "titulo": "Construcción del edificio de docencia (UD3), para la Universidad Tecnológica del Suroeste de Guanajuato (UTSOE), primera etapa.",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/UTSOE/2026-153",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-10-27T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/424320260002/LICITACION/PUB_035F268E7B95EB74997B30994.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-04T17:51:24.078779+00:00"
+    },
+    {
       "ocid": "celaya-licitacion-de-caracter-publica-nacional-presencial-por-partidas-lpnp-mce-18-2026-adquisicion-de-materiales-electricos-y-electronicos-para-el-mantenimiento-anual-del-alumbrado-publico-del-muni",
       "titulo": "LICITACIÓN DE CARÁCTER PÚBLICA NACIONAL PRESENCIAL POR PARTIDAS LPNP-MCE-18-2026 “ADQUISICIÓN DE MATERIALES ELÉCTRICOS Y ELECTRÓNICOS PARA EL MANTENIMIENTO ANUAL DEL ALUMBRADO PÚBLICO DEL MUNICIPIO DE CELAYA GTO. PARA EL EJERCICIO 2026”",
       "descripcion": "",
@@ -467,5 +482,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-11-04T08:48:37.373149+00:00"
+  "ultima_actualizacion": "2026-11-04T17:52:13.767847+00:00"
 }
