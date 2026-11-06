@@ -1,6 +1,36 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2801",
+      "titulo": "Construcción de un Bachillerato Nacional Margarita Maza con C.C.T. 11DMM0012P, ubicado en la Colonia Villas del Sur, en el municipio de San Francisco del Rincón, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/LP/PU/ED/OB/INFEDU/2026-156",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-05T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-06T02:04:52.872283+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2802",
+      "titulo": "Construcción de un Bachillerato Nacional Margarita Maza con C.C.T. 11DMM0014N, ubicado en la Colonia Juárez, en el municipio de Uriangato, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/LP/PU/ED/OB/INFEDU/2026-157",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-05T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-06T02:04:52.872508+00:00"
+    },
+    {
       "ocid": "gto-estatal-2800",
       "titulo": "Construcción del edificio de docencia (UD3), para la Universidad Tecnológica del Suroeste de Guanajuato (UTSOE), primera etapa.",
       "descripcion": "Simplificada — Clave: SOP/LS/PU/ED/OB/UTSOE/2026-153",
@@ -482,5 +512,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-11-05T21:51:19.398174+00:00"
+  "ultima_actualizacion": "2026-11-06T02:05:39.038223+00:00"
 }
