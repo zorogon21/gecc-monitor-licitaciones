@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "celaya-licitacion-de-caracter-publica-nacional-presencial-lpnp-mce-20-2026-adquisicion-de-pipa-de-agua-para-la-secretaria-de-ayuntamiento-del-municipio-de-celaya-gto-para-el-ejercicio-2026",
+      "titulo": "LICITACIÓN DE CARÁCTER PÚBLICA NACIONAL PRESENCIAL LPNP-MCE-20-2026 ADQUISICIÓN DE PIPA DE AGUA PARA LA SECRETARIA DE AYUNTAMIENTO DEL MUNICIPIO DE CELAYA GTO., PARA EL EJERCICIO 2026.",
+      "descripcion": "",
+      "comprador": "Municipio de Celaya, Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-10T00:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://www.celaya.gob.mx/consultas/licitacion-de-caracter-publica-nacional-presencial-lpnp-mce-20-2026-adquisicion-de-pipa-de-agua-para-la-secretaria-de-ayuntamiento-del-municipio-de-celaya-gto-para-el-ejercicio-2026/",
+      "fuente": "Licitaciones y Convocatorias — Presidencia Municipal de Celaya",
+      "categorias": [
+        "maquinaria_pesada"
+      ],
+      "detectado_en": "2026-11-10T22:59:25.071257+00:00"
+    },
+    {
       "ocid": "gto-estatal-2801",
       "titulo": "Construcción de un Bachillerato Nacional Margarita Maza con C.C.T. 11DMM0012P, ubicado en la Colonia Villas del Sur, en el municipio de San Francisco del Rincón, Gto.",
       "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/LP/PU/ED/OB/INFEDU/2026-156",
@@ -422,5 +437,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-11-10T16:15:50.769278+00:00"
+  "ultima_actualizacion": "2026-11-10T23:00:38.283752+00:00"
 }
