@@ -1,35 +1,5 @@
 [
   {
-    "timestamp": "2026-11-03T19:15:12.669575+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-11-03T19:15:42.736058+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 2 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-11-03T19:16:12.795248+00:00",
-    "nivel": "error",
-    "mensaje": "Error al descargar página 3 (federal): <urlopen error timed out>"
-  },
-  {
-    "timestamp": "2026-11-03T19:16:52.626831+00:00",
-    "nivel": "error",
-    "mensaje": "Error al consultar el portal de Irapuato: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
-  },
-  {
-    "timestamp": "2026-11-03T19:16:56.000482+00:00",
-    "nivel": "error",
-    "mensaje": "Error al consultar el portal del Estado de Nuevo León: HTTP Error 403: Forbidden"
-  },
-  {
-    "timestamp": "2026-11-03T19:17:03.745929+00:00",
-    "nivel": "info",
-    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 812 Guanajuato estatal, 0 León, 5 Celaya, 1 Apaseo el Grande, 0 Salamanca, 2 Guanajuato capital, 1 Uriangato, 0 Irapuato, 5 San Pedro Garza García, 0 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 931."
-  },
-  {
     "timestamp": "2026-11-04T00:27:53.705240+00:00",
     "nivel": "error",
     "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
@@ -998,5 +968,35 @@
     "timestamp": "2026-11-13T02:30:38.588482+00:00",
     "nivel": "info",
     "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 817 Guanajuato estatal, 0 León, 5 Celaya, 1 Apaseo el Grande, 0 Salamanca, 5 Guanajuato capital, 1 Uriangato, 0 Irapuato, 5 San Pedro Garza García, 0 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 940."
+  },
+  {
+    "timestamp": "2026-11-13T11:57:58.374573+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 1 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-11-13T11:58:28.437863+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 2 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-11-13T11:58:58.518565+00:00",
+    "nivel": "error",
+    "mensaje": "Error al descargar página 3 (federal): <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-11-13T12:00:06.710633+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal de Irapuato: <urlopen error timed out>"
+  },
+  {
+    "timestamp": "2026-11-13T12:00:09.472595+00:00",
+    "nivel": "error",
+    "mensaje": "Error al consultar el portal del Estado de Nuevo León: HTTP Error 403: Forbidden"
+  },
+  {
+    "timestamp": "2026-11-13T12:00:15.709751+00:00",
+    "nivel": "info",
+    "mensaje": "Corrida completada. Nuevas licitaciones relevantes: 0 federal, 817 Guanajuato estatal, 0 León, 5 Celaya, 1 Apaseo el Grande, 0 Salamanca, 6 Guanajuato capital, 1 Uriangato, 0 Irapuato, 5 San Pedro Garza García, 0 Nuevo León estatal, 0 SADM, 0 Querétaro municipio, 106 San Luis Potosí capital. Vencidas podadas: 941."
   }
 ]
