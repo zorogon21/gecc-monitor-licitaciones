@@ -1,6 +1,21 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2803",
+      "titulo": "Conservación y mantenimiento de caminos de la red secundaria y rutas de acceso a localidades en el estado de Guanajuato, Zona A",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-162",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-12T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/501520260082/LICITACION/PUB_3603D820414CC410744D3446F.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-20T21:44:07.415923+00:00"
+    },
+    {
       "ocid": "celaya-licitacion-de-caracter-publica-nacional-presencial-lpnp-mce-20-2026-adquisicion-de-pipa-de-agua-para-la-secretaria-de-ayuntamiento-del-municipio-de-celaya-gto-para-el-ejercicio-2026",
       "titulo": "LICITACIÓN DE CARÁCTER PÚBLICA NACIONAL PRESENCIAL LPNP-MCE-20-2026 ADQUISICIÓN DE PIPA DE AGUA PARA LA SECRETARIA DE AYUNTAMIENTO DEL MUNICIPIO DE CELAYA GTO., PARA EL EJERCICIO 2026.",
       "descripcion": "",
@@ -392,5 +407,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-11-20T12:38:58.460846+00:00"
+  "ultima_actualizacion": "2026-11-20T21:45:29.637070+00:00"
 }
