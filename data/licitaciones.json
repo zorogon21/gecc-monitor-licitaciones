@@ -1,6 +1,36 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2804",
+      "titulo": "Rehabilitación de plaza pública en la localidad Hermosillo, en Santiago Maravatío.",
+      "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/OP/2026-165",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-23T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/361520260002/LICITACION/PUB_1315FB19BD3ADA2104C680B34.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-25T02:01:20.072147+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2805",
+      "titulo": "Conservación rutinaria del Paso Superior de Ferrocarril para acceso al polígono aeronáutico SkyPlus, en Guanajuato Puerto Interior.",
+      "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/GPI/2026-161",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-17T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "https://sopguanajuato.mx/SEU/scaneosop/375720260005/LICITACION/PUB_C9EF6F2855D6E09C8C20F9312.pdf",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-25T02:01:20.072470+00:00"
+    },
+    {
       "ocid": "gto-estatal-2803",
       "titulo": "Conservación y mantenimiento de caminos de la red secundaria y rutas de acceso a localidades en el estado de Guanajuato, Zona A",
       "descripcion": "Simplificada — Clave: SOP/LS/PU/IV/OB/OP/2026-162",
@@ -377,5 +407,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-11-24T17:13:41.289185+00:00"
+  "ultima_actualizacion": "2026-11-25T02:03:06.088256+00:00"
 }
