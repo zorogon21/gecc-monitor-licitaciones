@@ -1,6 +1,51 @@
 {
   "licitaciones": [
     {
+      "ocid": "gto-estatal-2806",
+      "titulo": "Construcción de un Bachillerato Nacional Margarita Maza con C.C.T. 11DMM0006E, ubicado en el Fraccionamiento Residencial Panamericano, en el municipio de Celaya, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/LP/PU/ED/OB/INFEDU/2026-159",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-25T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-25T21:20:55.292022+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2808",
+      "titulo": "Construcción de un Bachillerato Nacional Margarita Maza con C.C.T. 11DMM0003H, ubicado en el Fraccionamiento Los Virreyes, en el municipio de Salamanca, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/LP/PU/ED/OB/INFEDU/2026-166",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-25T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-25T21:20:55.292171+00:00"
+    },
+    {
+      "ocid": "gto-estatal-2807",
+      "titulo": "Construcción de un Bachillerato Nacional Margarita Maza con C.C.T. 11DMM0005F, ubicado en el Fraccionamiento Calquetzani, en el municipio de Celaya, Gto.",
+      "descripcion": "Licitación Publica Federal — Clave: GEGTO/SOP/LP/PU/ED/OB/INFEDU/2026-160",
+      "comprador": "Secretaría de Obra Pública del Estado de Guanajuato",
+      "ubicacion": "Guanajuato",
+      "fecha_publicacion": "2026-11-24T06:00:00+00:00",
+      "fecha_limite": "",
+      "link": "",
+      "fuente": "Obra Pública del Estado de Guanajuato",
+      "categorias": [
+        "construccion_obra"
+      ],
+      "detectado_en": "2026-11-25T21:20:55.292321+00:00"
+    },
+    {
       "ocid": "gto-estatal-2804",
       "titulo": "Rehabilitación de plaza pública en la localidad Hermosillo, en Santiago Maravatío.",
       "descripcion": "Licitación Publica Estatal — Clave: SOP/LP/PU/ED/OB/OP/2026-165",
@@ -362,5 +407,5 @@
       "detectado_en": "2026-07-02T16:42:37.910160+00:00"
     }
   ],
-  "ultima_actualizacion": "2026-11-25T11:12:13.287612+00:00"
+  "ultima_actualizacion": "2026-11-25T21:22:10.302915+00:00"
 }
